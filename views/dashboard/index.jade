@@ -1,0 +1,41 @@
+extends ../layout
+
+block content
+    div.row
+        div.span3
+            div.well.filled
+                ul.nav.nav-list
+                    li.nav-header.
+                        Docs
+                    li
+                        a(href='https://trello.com/board/devtipplanning/513458aa54ef6d3c690038da')
+                            | Trello Board (Feature Requests)
+                    li
+                        a(href='https://fogbugz.devid.local/default.asp?W1520')
+                            | Dev Metrics Wiki
+                    li
+                        a(href='https://fogbugz.devid.local/default.asp?W150')
+                            | Getting It Running
+                    li.nav-header.
+                        Repos
+                    li
+                        a(href='https://fogbugz.devid.local/kiln/Code/Dev-Infrastructure/DevMetrics/Release')
+                            | Production
+                    li
+                        a(href='https://fogbugz.devid.local/kiln/Code/Dev-Infrastructure/DevMetrics/Dev')
+                            | Dev         
+                    li.nav-header.
+                        Other      
+                    li
+                        a(href='/download/csvFromProjects')
+                            | CSV of Current Totals per Project
+                    li
+                        a(href='/download/csvFromProjectsPerMilestone')
+                            | CSV of Current Totals per Project and Milestone
+                    li
+                        a(href='/download/xls/escapeeReport')
+                            | Latest Escapee Report
+        div.span8.offset1
+
+block scripts
+    script(src="/js/dashboard.js")

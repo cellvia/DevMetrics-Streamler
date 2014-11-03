@@ -1,0 +1,48 @@
+!!!
+html
+    head
+        meta(charset="utf-8")
+        meta(viewport="width=device-width, initial-scale=1.0")
+        title | FogBugz Reporting
+        link(rel='stylesheet', href='/css/lib/bootstrap.css')
+        link(rel='stylesheet', href='/css/dashboard.css')
+        block css
+    body
+        div.navbar.navbar-inverse.navbar-fixed-top
+            div.navbar-inner
+                div.container
+                    div
+                        div
+                            a.btn.btn-navbar(data-toggle="collapse",data-target=".nav-collapse")
+                                span.icon-bar
+                                span.icon-bar
+                                span.icon-bar
+                            a.brand(href="/")
+                                img(src="/img/abc.png", border="0")
+                                span  Dev Metrics
+                            div.nav-collapse
+                                ul.nav
+                                    li.dropdown
+                                        a.dropdown-toggle(data-toggle="dropdown",href="#") Dev Projects
+                                            | <b class="caret"></b>
+                                        ul.dropdown-menu
+                                            each project in devprojects
+                                                li: a(href="/projects/#{project.ixProject}") #{project.sProject}
+                              //
+                                    li.dropdown
+                                          a.dropdown-toggle(data-toggle="dropdown",href="#") Project Inboxes
+                                              | <b class="caret"></b>
+                                          ul.dropdown-menu
+                                              each inbox in inboxes
+                                                  li: a(href='/projects/#{inbox.ixProject}') #{inbox.sProject}
+                           
+    div.container
+        block content
+          
+    script(src="/js/lib/jquery-1.7.2.min.js")
+    script(src="/js/lib/bootstrap.min.js")
+    script(src="/js/lib/knockout-2.0.0.js")
+    script(src="/js/highcharts.js")
+    script(src="/js/models.js")
+      
+    block scripts

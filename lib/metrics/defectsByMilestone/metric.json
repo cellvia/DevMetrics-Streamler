@@ -1,0 +1,8 @@
+{
+
+"name": "defectsByMilestone",
+"description": "Builds a defects-report on milestones",
+"dependencies": ["pullFogbugz"],
+"active": true
+
+}

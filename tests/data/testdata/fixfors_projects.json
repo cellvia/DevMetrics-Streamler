@@ -1,0 +1,5 @@
+{
+    "fixfors:test1": [ "fixfor:1", "fixfor:2" ],
+    "fixfors:test2": [ "fixfor:3", "fixfor:4" ],
+    "fixfors:active": [ "fixfor:2", "fixfor:4", "fixfor:1", "fixfor:2" ]
+}

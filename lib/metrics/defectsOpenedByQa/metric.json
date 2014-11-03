@@ -1,0 +1,8 @@
+{
+
+"name": "defectsOpenedByQa",
+"description": "Loads authors and release dates from Qa Database and generates a report",
+"dependencies": ["pullFogbugz"],
+"active": true
+
+}

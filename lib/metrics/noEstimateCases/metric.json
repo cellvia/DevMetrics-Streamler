@@ -1,0 +1,6 @@
+{
+    "name": "noEstimateCases",
+    "description": "Tickets without estimates",
+    "dependencies": ["pullFogbugz"],
+    "active": true
+}

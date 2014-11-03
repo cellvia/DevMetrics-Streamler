@@ -1,0 +1,8 @@
+{
+
+"name": "returnsPerRelease",
+"description": "Computes the details of QA returns per author per release",
+"dependencies": ["pullFogbugz"],
+"active": true
+
+}

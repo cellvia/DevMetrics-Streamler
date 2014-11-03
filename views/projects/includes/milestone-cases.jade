@@ -1,0 +1,137 @@
+div.row(data-bind='visible: milestoneView')
+    div.span12
+        div#casesTabs(data-bind='visible: loaded')
+            ul.nav.nav-tabs
+                li
+                    a(href='#openTable',data-toggle='tab') Open Tickets <span class='badge' data-bind='text: cases_open().length'></span>
+                li
+                    a(href='#resolvedTable',data-toggle='tab') Resolved Tickets <span class='badge' data-bind='text: cases_resolved().length'></span>
+                li
+                    a(href='#closedTable',data-toggle='tab') Closed Tickets <span class='badge' data-bind='text: cases_closed().length'></span>
+                li(data-bind='visible: defectsView')
+                    a(href='#openDefectsTable',data-toggle='tab') Open Defects <span class='badge' data-bind='text: cases_defect_open().length'></span>
+                li(data-bind='visible: defectsView')
+                    a(href='#resolvedDefectsTable',data-toggle='tab') Resolved Defects <span class='badge' data-bind='text: cases_defect_resolved().length'></span>
+                li(data-bind='visible: defectsView')
+                    a(href='#closedDefectsTable',data-toggle='tab') Closed Defects <span class='badge' data-bind='text: cases_defect_closed().length'></span>
+            div.tab-content
+                div#openTable.tab-pane.
+                    <table class='table table-striped'>
+                        <thead>
+                            <tr data-bind='template: { foreach: case_columns }'>
+                                <th><b class='caret'></b><span data-bind='text: title, attr: { id: name }'></span></th>
+                            </tr>
+                        </thead>
+                        <tbody data-bind='foreach: cases_open'>
+                            <tr>
+                              <td><a target="_blank" data-bind='text: Id, attr: { href: link }' /></td>
+                              <td><span class='label' data-bind='text: scategory' /></td>
+                              <td><span class='label' data-bind='text: spriority' /></td>
+                              <td><span data-bind='text: sstatus' /></td>
+                              <td><span data-bind='text: srootcause' /></td>
+                              <td><span data-bind='text: stitle' /></td>
+                              <td><span data-bind='text: sarea' /></td>
+                              <td><span data-bind='text: spersonassignedto' /></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                div#resolvedTable.tab-pane.
+                    <table class='table table-striped'>
+                        <thead>
+                            <tr data-bind='template: { foreach: case_columns }'>
+                                <th><b class='caret'></b> <span data-bind='text: title, attr: { id: name }'></span></th>
+                            </tr>
+                        </thead>
+                        <tbody data-bind='foreach: cases_resolved'>
+                            <tr>
+                              <td><a target="_blank" data-bind='text: Id, attr: { href: link }' /></td>
+                              <td><span class='label' data-bind='text: scategory' /></td>
+                              <td><span class='label' data-bind='text: spriority' /></td>
+                              <td><span data-bind='text: sstatus' /></td>
+                              <td><span data-bind='text: srootcause' /></td>
+                              <td><span data-bind='text: stitle' /></td>
+                              <td><span data-bind='text: sarea' /></td>
+                              <td><span data-bind='text: spersonassignedto' /></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                div#closedTable.tab-pane.
+                    <table class='table table-striped'>
+                        <thead>
+                            <tr data-bind='template: { foreach: case_columns }'>
+                                <th><b class='caret'></b> <span data-bind='text: title, attr: { id: name }'></span></th>
+                            </tr>
+                        </thead>
+                        <tbody data-bind='foreach: cases_closed'>
+                            <tr>
+                              <td><a target="_blank" data-bind='text: Id, attr: { href: link }' /></td>
+                              <td><span class='label' data-bind='text: scategory' /></td>
+                              <td><span class='label' data-bind='text: spriority' /></td>
+                              <td><span data-bind='text: sstatus' /></td>
+                              <td><span data-bind='text: srootcause' /></td>
+                              <td><span data-bind='text: stitle' /></td>
+                              <td><span data-bind='text: sarea' /></td>
+                              <td><span data-bind='text: spersonassignedto' /></td>
+                            </tr>
+                        </tbody>
+                    </table>    
+                div(data-bind='visible: defectsView')#openDefectsTable.tab-pane.
+                    <table class='table table-striped'>
+                        <thead>
+                             <tr data-bind='template: { foreach: case_columns }'>
+                                 <th><b class='caret'></b> <span data-bind='text: title, attr: { id: name }'></span></th>
+                             </tr>
+                         </thead>
+                         <tbody data-bind='foreach: cases_defect_open'>
+                             <tr>
+                              <td><a target="_blank" data-bind='text: Id, attr: { href: link }' /></td>
+                              <td><span class='label' data-bind='text: scategory' /></td>
+                              <td><span class='label' data-bind='text: spriority' /></td>
+                              <td><span data-bind='text: sstatus' /></td>
+                              <td><span data-bind='text: srootcause' /></td>
+                              <td><span data-bind='text: stitle' /></td>
+                              <td><span data-bind='text: sarea' /></td>
+                              <td><span data-bind='text: spersonassignedto' /></td>
+                            </tr>
+                         </tbody>
+                    </table>
+                div(data-bind='visible: defectsView')#resolvedDefectsTable.tab-pane.
+                    <table class='table table-striped'>
+                        <thead>
+                            <tr data-bind='template: { foreach: case_columns }'>
+                                <th><b class='caret'></b> <span data-bind='text: title, attr: { id: name }'></span></th>
+                            </tr>
+                        </thead>
+                        <tbody data-bind='foreach: cases_defect_resolved'>
+                            <tr>
+                              <td><a target="_blank" data-bind='text: Id, attr: { href: link }' /></td>
+                              <td><span class='label' data-bind='text: scategory' /></td>
+                              <td><span class='label' data-bind='text: spriority' /></td>
+                              <td><span data-bind='text: sstatus' /></td>
+                              <td><span data-bind='text: srootcause' /></td>
+                              <td><span data-bind='text: stitle' /></td>
+                              <td><span data-bind='text: sarea' /></td>
+                              <td><span data-bind='text: spersonassignedto' /></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                div(data-bind='visible: defectsView')#closedDefectsTable.tab-pane.
+                    <table class='table table-striped'>
+                        <thead>
+                            <tr data-bind='template: { foreach: case_columns }'>
+                                <th><b class='caret'></b> <span data-bind='text: title, attr: { id: name }'></span></th>
+                            </tr>
+                        </thead>
+                    <tbody data-bind='foreach: cases_defect_closed'>
+                        <tr>
+                              <td><a target="_blank" data-bind='text: Id, attr: { href: link }' /></td>
+                              <td><span class='label' data-bind='text: scategory' /></td>
+                              <td><span class='label' data-bind='text: spriority' /></td>
+                              <td><span data-bind='text: sstatus' /></td>
+                              <td><span data-bind='text: srootcause' /></td>
+                              <td><span data-bind='text: stitle' /></td>
+                              <td><span data-bind='text: sarea' /></td>
+                              <td><span data-bind='text: spersonassignedto' /></td>
+                            </tr>
+                    </tbody>
+                </table>

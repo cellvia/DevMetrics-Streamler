@@ -1,0 +1,21 @@
+extends ../layout
+
+block content
+	div.row
+		div.span12
+			div#ticketsByMilestone
+
+block scripts
+	script(type='text/javascript')
+		var src = !{JSON.stringify(data)};
+
+		$(function() {
+			var closedTicketsChart = new Highcharts.Chart({
+				chart: { renderTo: 'ticketsByMilestone', type: 'line' },
+				title: { text: src.title },
+				xAxis: { type: 'datetime' },
+				yAxis: { title: { text: 'Number of Tickets' } },
+				series: src.data
+			});
+
+		});

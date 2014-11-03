@@ -1,0 +1,68 @@
+extends ../layout
+
+block css
+
+    link(rel='stylesheet', href='/css/lib/jquery.dataTables.css')
+    link(rel='stylesheet', href='/css/projects.css')
+
+block content
+    div.row.botSpace
+        div#projectInfo.span12
+            h1.projectName !{projectName}
+            select.fixfor
+                option(value='0', selected) Select Milestones...
+                option(value='1') All Milestones
+                each fixfor in fixfors
+                    option(value='#{fixfor.ixFixFor}') #{fixfor.sFixFor}
+            select.focus(data-bind='visible: milestoneView')
+                option(value='all') All Cases
+                option(value='badrcm') Bad Rootcause Milestones
+                option(value='blankrcm') Blank Rootcause Milestones
+                option(value='escapees') Escapees
+                option(value='peis') Previously Existing Issues
+                option(value='umbrellas') Umbrella Tickets
+                option(value='validQAReturns') Valid QA Returns
+                option(value='openBeforeReleaseTestingDate') Defects Open By QA Before Release Testing Date
+                option(value='openAfterReleaseTestingDate') Defects Open By QA After Release Testing Date
+            h6.loadDate Data Loaded: !{loadDate}
+    div#project
+        include includes/project
+        include includes/milestone-menu
+        include includes/milestone-cases              
+      
+block scripts
+    script(src='/js/lib/jquery.dataTables.min.js')
+    script(type='text/javascript')
+        var milestones = {
+            project: !{project},
+            projectName: '!{projectName}',
+            milestone: !{milestone},
+            startdates: !{startdates},
+            duedates: !{duedates},
+            openTickets: !{openTickets},
+            openBugs: !{openBugs},
+            closedTickets: !{closedTickets},
+            peis: !{peis},
+            badRCM: !{badRCM},
+            blankRCM: !{blankRCM},
+            pendingReviewAvg: !{pendingReviewAvg},
+            umbrellas: !{umbrellas},
+            escapedDefects: !{escapedDefects},
+            validQAReturns: !{validQAReturns},
+            noEstimateCases: !{noEstimateCases},
+            openBeforeReleaseTestingDate: !{openBeforeReleaseTestingDate},
+            openAfterReleaseTestingDate: !{openAfterReleaseTestingDate}
+        };
+
+        var chartData = {        
+            milestoneNames: !{milestoneNames},
+            milestoneFixfors: !{milestoneFixfors},
+            chartPEIs: !{chartPEIs},
+            chartEscapees:!{chartEscapees},
+            chartPercentEscapees:!{chartPercentEscapees},
+            chartPendingReviewAvg:!{chartPendingReviewAvg},
+            chartTotal:!{chartTotal}
+        }
+    script(src='/js/utilities.js')      
+    script(src='/js/projects.js')        
+              

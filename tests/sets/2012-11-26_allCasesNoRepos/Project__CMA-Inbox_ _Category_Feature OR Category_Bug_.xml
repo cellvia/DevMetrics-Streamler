@@ -1,0 +1,1528 @@
+<?xml version="1.0" encoding="UTF-8"?><response><cases count="12"><case ixBug="54948" operations="edit,reopen,reply,forward,remind"><sLatestTextSummary><![CDATA[Per Jai's comment this has been resolved in the latest build]]></sLatestTextSummary><sProject><![CDATA[CMA-Inbox]]></sProject><ixProject>22</ixProject><ixArea>65</ixArea><sArea><![CDATA[Undecided]]></sArea><ixBug>54948</ixBug><ixBugParent>0</ixBugParent><fOpen>false</fOpen><sTitle><![CDATA[Target page-> Metric filter value setting doesn’t correspond to the applied filter  ]]></sTitle><ixPersonAssignedTo>1</ixPersonAssignedTo><sPersonAssignedTo><![CDATA[CLOSED]]></sPersonAssignedTo><ixPersonOpenedBy>154</ixPersonOpenedBy><ixPersonClosedBy>154</ixPersonClosedBy><ixPersonLastEditedBy>154</ixPersonLastEditedBy><ixStatus>3</ixStatus><sStatus><![CDATA[Closed (Not Reproducible)]]></sStatus><sPriority><![CDATA[Normal (Services Reported)]]></sPriority><ixFixFor>1</ixFixFor><sFixFor><![CDATA[Undecided]]></sFixFor><dtFixFor></dtFixFor><hrsCurrEst>0</hrsCurrEst><hrsElapsed>0</hrsElapsed><ixCategory>1</ixCategory><dtOpened>2012-11-09T15:22:59Z</dtOpened><dtResolved>2012-11-15T20:46:13Z</dtResolved><dtClosed>2012-11-15T20:46:13Z</dtClosed><dtDue></dtDue><dtLastView></dtLastView><ixGroup>0</ixGroup><ixBugChildren></ixBugChildren><sCategory><![CDATA[Bug]]></sCategory><ixRelatedBugs></ixRelatedBugs><tags><tag><![CDATA[CMA-Inbox]]></tag></tags><ixRelatedBugs></ixRelatedBugs><plugin_customfields_at_fogcreek_com_rootxcausexmilestonek65><![CDATA[INV]]></plugin_customfields_at_fogcreek_com_rootxcausexmilestonek65><events><event ixBugEvent="270529" ixBug="54948"><ixBugEvent>270529</ixBugEvent><evt>11</evt><sVerb><![CDATA[Incoming Email]]></sVerb><ixPerson>154</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-11-09T15:22:59Z</dt><s><![CDATA[From: "J, Prakash" <JP@advisory.com>Date: Fri, 9 Nov 2012 10:20:51 -0500To: "Crimson Market Advantage Cases" <CMA-cases@advisory.com>Cc: Subject: Target page-> Metric filter value setting doesn’t correspond to the applied filter  REPORTED BY: Jai Prakash
+
+ 
+
+DESCRIPTION OF ISSUE:  Target page-> Filter values seen doesn’t correspond to the applied filter  
+
+ 
+
+STEPS TO REPRODUCE :
+
+ 
+
+1.       Opportunities-> Target page ->Targets-> set the page filter by keeping any specialties (filter) involved in it(Keep other filters as it is) and apply it
+
+2.       Then rest the filter
+
+3.       Now apply the saved filter, the result seen is corresponding to the applied filter, but the specialties filter text box still points the  “All Selected”
+
+ 
+
+Note: The above same has been happened if we have few other filter setting in the “Apply filter” option. They are,  Employment status, Sub service lines. The same has been observed for the individual physicians-> Network tab
+
+ 
+
+ 
+
+ACTUAL RESULTS VERSUS EXPECTED RESULTS:
+
+ 
+
+Actual Result: Specialties filter fails to show the specialty set in the apply filter
+
+ 
+
+Expected results: Specialties filter show have to reflect the specialty set in the apply filter
+
+ 
+
+IMPACT OF ISSUE TO DEPLOYMENT OF THE RELEASE:  Medium
+
+ 
+
+BUILD VERSION/SITE URL/DB:
+
+ 
+
+Site: https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4 <https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4>
+
+DB:   Lakelandhealth_Tango
+
+Release:  CMA.2012.09.Tango
+
+Server: 192.168.17.82
+
+BROWSER:  IE8]]></s><fEmail>true</fEmail><fHTML>true</fHTML><fExternal>true</fExternal><sChanges></sChanges><sFormat></sFormat><sFrom><![CDATA["J, Prakash" <JP@advisory.com>]]></sFrom><sTo><![CDATA["Crimson Market Advantage Cases" <CMA-cases@advisory.com>]]></sTo><sCC></sCC><sBCC></sBCC><sReplyTo><![CDATA["J, Prakash" <JP@advisory.com>]]></sReplyTo><sSubject><![CDATA[Target page-> Metric filter value setting doesn’t correspond to the applied filter  ]]></sSubject><sDate><![CDATA[Fri, 9 Nov 2012 10:20:51 -0500]]></sDate><sMessageId><![CDATA[<567DBAD9C37DE442A8400CD774231E6C3AF5395E@DC-MBOX1.advisory.com>]]></sMessageId><sBodyText><![CDATA[REPORTED BY: Jai Prakash
+
+ 
+
+DESCRIPTION OF ISSUE:  Target page-> Filter values seen doesn’t correspond to the applied filter  
+
+ 
+
+STEPS TO REPRODUCE :
+
+ 
+
+1.       Opportunities-> Target page ->Targets-> set the page filter by keeping any specialties (filter) involved in it(Keep other filters as it is) and apply it
+
+2.       Then rest the filter
+
+3.       Now apply the saved filter, the result seen is corresponding to the applied filter, but the specialties filter text box still points the  “All Selected”
+
+ 
+
+Note: The above same has been happened if we have few other filter setting in the “Apply filter” option. They are,  Employment status, Sub service lines. The same has been observed for the individual physicians-> Network tab
+
+ 
+
+ 
+
+ACTUAL RESULTS VERSUS EXPECTED RESULTS:
+
+ 
+
+Actual Result: Specialties filter fails to show the specialty set in the apply filter
+
+ 
+
+Expected results: Specialties filter show have to reflect the specialty set in the apply filter
+
+ 
+
+IMPACT OF ISSUE TO DEPLOYMENT OF THE RELEASE:  Medium
+
+ 
+
+BUILD VERSION/SITE URL/DB:
+
+ 
+
+Site: https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4 <https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4>
+
+DB:   Lakelandhealth_Tango
+
+Release:  CMA.2012.09.Tango
+
+Server: 192.168.17.82
+
+BROWSER:  IE8]]></sBodyText><sBodyHTML><![CDATA[REPORTED BY: Jai Prakash<br />
+<br />
+&nbsp;<br />
+<br />
+DESCRIPTION OF ISSUE:&nbsp; Target page-&gt; Filter values seen doesn&#8217;t correspond to the applied filter&nbsp; <br />
+<br />
+&nbsp;<br />
+<br />
+STEPS TO REPRODUCE :<br />
+<br />
+&nbsp;<br />
+<br />
+1.&nbsp; &nbsp; &nbsp;&nbsp; Opportunities-&gt; Target page -&gt;Targets-&gt; set the page filter by keeping any specialties (filter) involved in it(Keep other filters as it is) and apply it<br />
+<br />
+2.&nbsp; &nbsp; &nbsp;&nbsp; Then rest the filter<br />
+<br />
+3.&nbsp; &nbsp; &nbsp;&nbsp; Now apply the saved filter, the result seen is corresponding to the applied filter, but the specialties filter text box still points the&nbsp; &#8220;All Selected&#8221;<br />
+<br />
+&nbsp;<br />
+<br />
+Note: The above same has been happened if we have few other filter setting in the &#8220;Apply filter&#8221; option. They are,&nbsp; Employment status, Sub service lines. The same has been observed for the individual physicians-&gt; Network tab<br />
+<br />
+&nbsp;<br />
+<br />
+&nbsp;<br />
+<br />
+ACTUAL RESULTS VERSUS EXPECTED RESULTS:<br />
+<br />
+&nbsp;<br />
+<br />
+Actual Result: Specialties filter fails to show the specialty set in the apply filter<br />
+<br />
+&nbsp;<br />
+<br />
+Expected results: Specialties filter show have to reflect the specialty set in the apply filter<br />
+<br />
+&nbsp;<br />
+<br />
+IMPACT OF ISSUE TO DEPLOYMENT OF THE RELEASE:&nbsp; Medium<br />
+<br />
+&nbsp;<br />
+<br />
+BUILD VERSION/SITE URL/DB:<br />
+<br />
+&nbsp;<br />
+<br />
+Site: https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4 &lt;https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4&gt;<br />
+<br />
+DB:&nbsp;&nbsp; Lakelandhealth_Tango<br />
+<br />
+Release:&nbsp; CMA.2012.09.Tango<br />
+<br />
+Server: 192.168.17.82<br />
+<br />
+BROWSER:&nbsp; IE8]]></sBodyHTML><rgAttachments></rgAttachments><evtDescription><![CDATA[Incoming email received]]></evtDescription><bEmail>true</bEmail><bExternal>true</bExternal><sPerson><![CDATA[Nick Allen]]></sPerson></event><event ixBugEvent="270530" ixBug="54948"><ixBugEvent>270530</ixBugEvent><evt>13</evt><sVerb><![CDATA[NotSorted]]></sVerb><ixPerson>-1</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-11-09T15:22:59Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>true</fExternal><sChanges><![CDATA[Remains in 'Undecided' area.
+]]></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Email not sorted automatically - training in progress]]></evtDescription><bEmail>false</bEmail><bExternal>true</bExternal><sPerson><![CDATA[FogBugz]]></sPerson><sHtml></sHtml></event><event ixBugEvent="270531" ixBug="54948"><ixBugEvent>270531</ixBugEvent><evt>3</evt><sVerb><![CDATA[Assigned]]></sVerb><ixPerson>-1</ixPerson><ixPersonAssignedTo>154</ixPersonAssignedTo><dt>2012-11-09T15:22:59Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>true</fExternal><sChanges></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Assigned to Nick Allen by FogBugz]]></evtDescription><bEmail>false</bEmail><bExternal>true</bExternal><sPerson><![CDATA[FogBugz]]></sPerson><sHtml></sHtml></event><event ixBugEvent="271669" ixBug="54948"><ixBugEvent>271669</ixBugEvent><evt>14</evt><sVerb><![CDATA[Resolved]]></sVerb><ixPerson>276</ixPerson><ixPersonAssignedTo>154</ixPersonAssignedTo><dt>2012-11-12T18:55:04Z</dt><s><![CDATA[Cannot reproduce this issue with the instructions listed below]]></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges><![CDATA[Category changed from 'Inquiry' to 'Bug'.
+Status changed from 'Active' to 'Resolved (Not Reproducible)'.
+Priority changed from '4 – Normal' to '3 – Normal (Services Reported)'.
+Added tag 'CMA-Inbox'.
+]]></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Resolved (Not Reproducible) and assigned to Nick Allen by Debra Brewer]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Debra Brewer]]></sPerson><sHtml><![CDATA[Cannot reproduce this issue with the instructions listed below]]></sHtml></event><event ixBugEvent="272069" ixBug="54948"><ixBugEvent>272069</ixBugEvent><evt>3</evt><sVerb><![CDATA[Assigned]]></sVerb><ixPerson>276</ixPerson><ixPersonAssignedTo>276</ixPersonAssignedTo><dt>2012-11-13T14:55:15Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Assigned to Debra Brewer by Debra Brewer]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Debra Brewer]]></sPerson><sHtml></sHtml></event><event ixBugEvent="272070" ixBug="54948"><ixBugEvent>272070</ixBugEvent><evt>9</evt><sVerb><![CDATA[Replied]]></sVerb><ixPerson>276</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-11-13T14:55:25Z</dt><s><![CDATA[From: "FogBugz" <cma-cases@advisory.com>Date: Tue, 13 Nov 2012 08:55:25 -06:00To: "J, Prakash" <JP@advisory.com>Cc: Subject: Re: (Case 54948) Target page-> Metric filter value setting doesn’t correspond to the applied filter  Jai,
+I chose filter settings, applied them and saved that filter.  Then reset the filters and then reloaded the saved filter.  Everything came up as it should.  If I am misunderstanding, please send me instructions on how to recreate this.  I am closing the others as well 'As responded' as please let me know if I need to try something else to reproduce this - debra
+
+-- 
+FogBugz
+cma-cases@advisory.com
+---------------------------------------------------------------------------
+Powered by FogBugz from Fog Creek Software. http://www.fogcreek.com/fogbugz
+
+
+-----Original Message-----
+From: "J, Prakash" <JP@advisory.com>
+Reply-To: "J, Prakash" <JP@advisory.com>
+Date: Fri, 9 Nov 2012 10:20:51 -0500
+To: "Crimson Market Advantage Cases" <CMA-cases@advisory.com>
+Subject: Target page-> Metric filter value setting doesn’t correspond to the applied filter  
+
+>REPORTED BY: Jai Prakash
+>
+>DESCRIPTION OF ISSUE:  Target page-> Filter values seen doesn’t correspond to the applied filter  
+>
+>STEPS TO REPRODUCE :
+>
+>1.  Opportunities-> Target page ->Targets-> set the page filter by keeping any specialties (filter) involved in it(Keep other filters as it is) and apply it
+>
+>2.  Then rest the filter
+>
+>3.  Now apply the saved filter, the result seen is corresponding to the applied filter, but the specialties filter text box still points the  “All Selected”
+>
+>Note: The above same has been happened if we have few other filter setting in the “Apply filter” option. They are,  Employment status, Sub service lines. The same has been observed for the individual physicians-> Network tab
+>
+>ACTUAL RESULTS VERSUS EXPECTED RESULTS:
+>
+>Actual Result: Specialties filter fails to show the specialty set in the apply filter
+>
+>Expected results: Specialties filter show have to reflect the specialty set in the apply filter
+>
+>IMPACT OF ISSUE TO DEPLOYMENT OF THE RELEASE:  Medium
+>
+>BUILD VERSION/SITE URL/DB:
+>
+>Site: https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4 <https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4>
+>
+>DB:  Lakelandhealth_Tango
+>
+>Release:  CMA.2012.09.Tango
+>
+>Server: 192.168.17.82
+>
+>BROWSER:  IE8]]></s><fEmail>true</fEmail><fHTML>true</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat></sFormat><sFrom><![CDATA["FogBugz" <cma-cases@advisory.com>]]></sFrom><sTo><![CDATA["J, Prakash" <JP@advisory.com>]]></sTo><sCC></sCC><sBCC></sBCC><sReplyTo><![CDATA["FogBugz" <cma-cases@advisory.com>]]></sReplyTo><sSubject><![CDATA[Re: (Case 54948) Target page-> Metric filter value setting doesn’t correspond to the applied filter  ]]></sSubject><sDate><![CDATA[Tue, 13 Nov 2012 08:55:25 -06:00]]></sDate><sMessageId></sMessageId><sBodyText><![CDATA[Jai,
+I chose filter settings, applied them and saved that filter.  Then reset the filters and then reloaded the saved filter.  Everything came up as it should.  If I am misunderstanding, please send me instructions on how to recreate this.  I am closing the others as well 'As responded' as please let me know if I need to try something else to reproduce this - debra
+
+-- 
+FogBugz
+cma-cases@advisory.com
+---------------------------------------------------------------------------
+Powered by FogBugz from Fog Creek Software. http://www.fogcreek.com/fogbugz
+
+
+-----Original Message-----
+From: "J, Prakash" <JP@advisory.com>
+Reply-To: "J, Prakash" <JP@advisory.com>
+Date: Fri, 9 Nov 2012 10:20:51 -0500
+To: "Crimson Market Advantage Cases" <CMA-cases@advisory.com>
+Subject: Target page-> Metric filter value setting doesn’t correspond to the applied filter  
+
+>REPORTED BY: Jai Prakash
+>
+>DESCRIPTION OF ISSUE:  Target page-> Filter values seen doesn’t correspond to the applied filter  
+>
+>STEPS TO REPRODUCE :
+>
+>1.  Opportunities-> Target page ->Targets-> set the page filter by keeping any specialties (filter) involved in it(Keep other filters as it is) and apply it
+>
+>2.  Then rest the filter
+>
+>3.  Now apply the saved filter, the result seen is corresponding to the applied filter, but the specialties filter text box still points the  “All Selected”
+>
+>Note: The above same has been happened if we have few other filter setting in the “Apply filter” option. They are,  Employment status, Sub service lines. The same has been observed for the individual physicians-> Network tab
+>
+>ACTUAL RESULTS VERSUS EXPECTED RESULTS:
+>
+>Actual Result: Specialties filter fails to show the specialty set in the apply filter
+>
+>Expected results: Specialties filter show have to reflect the specialty set in the apply filter
+>
+>IMPACT OF ISSUE TO DEPLOYMENT OF THE RELEASE:  Medium
+>
+>BUILD VERSION/SITE URL/DB:
+>
+>Site: https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4 <https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4>
+>
+>DB:  Lakelandhealth_Tango
+>
+>Release:  CMA.2012.09.Tango
+>
+>Server: 192.168.17.82
+>
+>BROWSER:  IE8]]></sBodyText><sBodyHTML><![CDATA[Jai,<br />
+I chose filter settings, applied them and saved that filter.&nbsp; Then reset the filters and then reloaded the saved filter.&nbsp; Everything came up as it should.&nbsp; If I am misunderstanding, please send me instructions on how to recreate this.&nbsp; I am closing the others as well 'As responded' as please let me know if I need to try something else to reproduce this - debra<br />
+<br />
+-- <br />
+FogBugz<br />
+cma-cases@advisory.com<br />
+---------------------------------------------------------------------------<br />
+Powered by FogBugz from Fog Creek Software. http://www.fogcreek.com/fogbugz<br />
+<br />
+<br />
+-----Original Message-----<br />
+From: &quot;J, Prakash&quot; &lt;JP@advisory.com&gt;<br />
+Reply-To: &quot;J, Prakash&quot; &lt;JP@advisory.com&gt;<br />
+Date: Fri, 9 Nov 2012 10:20:51 -0500<br />
+To: &quot;Crimson Market Advantage Cases&quot; &lt;CMA-cases@advisory.com&gt;<br />
+Subject: Target page-&gt; Metric filter value setting doesn&#8217;t correspond to the applied filter&nbsp; <br />
+<br />
+&gt;REPORTED BY: Jai Prakash<br />
+&gt;<br />
+&gt;DESCRIPTION OF ISSUE:&nbsp; Target page-&gt; Filter values seen doesn&#8217;t correspond to the applied filter&nbsp; <br />
+&gt;<br />
+&gt;STEPS TO REPRODUCE :<br />
+&gt;<br />
+&gt;1.&nbsp; Opportunities-&gt; Target page -&gt;Targets-&gt; set the page filter by keeping any specialties (filter) involved in it(Keep other filters as it is) and apply it<br />
+&gt;<br />
+&gt;2.&nbsp; Then rest the filter<br />
+&gt;<br />
+&gt;3.&nbsp; Now apply the saved filter, the result seen is corresponding to the applied filter, but the specialties filter text box still points the&nbsp; &#8220;All Selected&#8221;<br />
+&gt;<br />
+&gt;Note: The above same has been happened if we have few other filter setting in the &#8220;Apply filter&#8221; option. They are,&nbsp; Employment status, Sub service lines. The same has been observed for the individual physicians-&gt; Network tab<br />
+&gt;<br />
+&gt;ACTUAL RESULTS VERSUS EXPECTED RESULTS:<br />
+&gt;<br />
+&gt;Actual Result: Specialties filter fails to show the specialty set in the apply filter<br />
+&gt;<br />
+&gt;Expected results: Specialties filter show have to reflect the specialty set in the apply filter<br />
+&gt;<br />
+&gt;IMPACT OF ISSUE TO DEPLOYMENT OF THE RELEASE:&nbsp; Medium<br />
+&gt;<br />
+&gt;BUILD VERSION/SITE URL/DB:<br />
+&gt;<br />
+&gt;Site: https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4 &lt;https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4&gt;<br />
+&gt;<br />
+&gt;DB:&nbsp; Lakelandhealth_Tango<br />
+&gt;<br />
+&gt;Release:&nbsp; CMA.2012.09.Tango<br />
+&gt;<br />
+&gt;Server: 192.168.17.82<br />
+&gt;<br />
+&gt;BROWSER:&nbsp; IE8]]></sBodyHTML><rgAttachments></rgAttachments><evtDescription><![CDATA[Replied by Debra Brewer]]></evtDescription><bEmail>true</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Debra Brewer]]></sPerson></event><event ixBugEvent="272071" ixBug="54948"><ixBugEvent>272071</ixBugEvent><evt>14</evt><sVerb><![CDATA[Resolved]]></sVerb><ixPerson>276</ixPerson><ixPersonAssignedTo>276</ixPersonAssignedTo><dt>2012-11-13T14:55:25Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Resolved (Not Reproducible) and assigned to Debra Brewer by Debra Brewer]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Debra Brewer]]></sPerson><sHtml></sHtml></event><event ixBugEvent="272072" ixBug="54948"><ixBugEvent>272072</ixBugEvent><evt>6</evt><sVerb><![CDATA[Closed]]></sVerb><ixPerson>276</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-11-13T14:55:25Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Closed by Debra Brewer]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Debra Brewer]]></sPerson><sHtml></sHtml></event><event ixBugEvent="273455" ixBug="54948"><ixBugEvent>273455</ixBugEvent><evt>5</evt><sVerb><![CDATA[Reopened]]></sVerb><ixPerson>-1</ixPerson><ixPersonAssignedTo>154</ixPersonAssignedTo><dt>2012-11-14T14:30:36Z</dt><s><![CDATA[From: "J, Prakash" <JP@advisory.com>Date: Wed, 14 Nov 2012 09:26:50 -0500To: "Crimson Market Advantage Cases" <CMA-cases@advisory.com>Cc: Subject: RE: (Case 54948) Target page-> Metric filter value setting doesn’t correspond to the applied filter  Hi Debra
+
+Please find the attached screen shot, it would be helpful to get the better idea to reproduce the below issue. If you understand this, follow the same type of steps for the following cases too, they are 54955, 54947, 54946
+
+Note: This issue is rectified in the latest build "7142"
+
+Thanks
+Jai Prakash
+
+-----Original Message-----
+From: FogBugz [mailto:cma-cases@advisory.com] 
+Sent: Tuesday, November 13, 2012 8:25 PM
+To: J, Prakash
+Subject: Re: (Case 54948) Target page-> Metric filter value setting doesn’t correspond to the applied filter 
+
+Jai,
+I chose filter settings, applied them and saved that filter.  Then reset the filters and then reloaded the saved filter.  Everything came up as it should.  If I am misunderstanding, please send me instructions on how to recreate this.  I am closing the others as well 'As responded' as please let me know if I need to try something else to reproduce this - debra
+
+-- 
+FogBugz
+cma-cases@advisory.com
+---------------------------------------------------------------------------
+Powered by FogBugz from Fog Creek Software. http://www.fogcreek.com/fogbugz
+
+
+-----Original Message-----
+From: "J, Prakash" <JP@advisory.com>
+Reply-To: "J, Prakash" <JP@advisory.com>
+Date: Fri, 9 Nov 2012 10:20:51 -0500
+To: "Crimson Market Advantage Cases" <CMA-cases@advisory.com>
+Subject: Target page-> Metric filter value setting doesn’t correspond to the applied filter  
+
+>REPORTED BY: Jai Prakash
+>
+>DESCRIPTION OF ISSUE:  Target page-> Filter values seen doesn’t correspond to the applied filter  
+>
+>STEPS TO REPRODUCE :
+>
+>1.  Opportunities-> Target page ->Targets-> set the page filter by keeping any specialties (filter) involved in it(Keep other filters as it is) and apply it
+>
+>2.  Then rest the filter
+>
+>3.  Now apply the saved filter, the result seen is corresponding to the applied filter, but the specialties filter text box still points the  “All Selected”
+>
+>Note: The above same has been happened if we have few other filter setting in the “Apply filter” option. They are,  Employment status, Sub service lines. The same has been observed for the individual physicians-> Network tab
+>
+>ACTUAL RESULTS VERSUS EXPECTED RESULTS:
+>
+>Actual Result: Specialties filter fails to show the specialty set in the apply filter
+>
+>Expected results: Specialties filter show have to reflect the specialty set in the apply filter
+>
+>IMPACT OF ISSUE TO DEPLOYMENT OF THE RELEASE:  Medium
+>
+>BUILD VERSION/SITE URL/DB:
+>
+>Site: https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4 <https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4>
+>
+>DB:  Lakelandhealth_Tango
+>
+>Release:  CMA.2012.09.Tango
+>
+>Server: 192.168.17.82
+>
+>BROWSER:  IE8
+
+]]></s><fEmail>true</fEmail><fHTML>true</fHTML><fExternal>true</fExternal><sChanges><![CDATA[Status changed from 'Resolved (Not Reproducible)' to 'New'.
+]]></sChanges><sFormat></sFormat><sFrom><![CDATA["J, Prakash" <JP@advisory.com>]]></sFrom><sTo><![CDATA["Crimson Market Advantage Cases" <CMA-cases@advisory.com>]]></sTo><sCC></sCC><sBCC></sBCC><sReplyTo><![CDATA["J, Prakash" <JP@advisory.com>]]></sReplyTo><sSubject><![CDATA[RE: (Case 54948) Target page-> Metric filter value setting doesn’t correspond to the applied filter  ]]></sSubject><sDate><![CDATA[Wed, 14 Nov 2012 09:26:50 -0500]]></sDate><sMessageId><![CDATA[<567DBAD9C37DE442A8400CD774231E6C3AF5C345@DC-MBOX1.advisory.com>]]></sMessageId><sBodyText><![CDATA[Hi Debra
+
+Please find the attached screen shot, it would be helpful to get the better idea to reproduce the below issue. If you understand this, follow the same type of steps for the following cases too, they are 54955, 54947, 54946
+
+Note: This issue is rectified in the latest build "7142"
+
+Thanks
+Jai Prakash
+
+-----Original Message-----
+From: FogBugz [mailto:cma-cases@advisory.com] 
+Sent: Tuesday, November 13, 2012 8:25 PM
+To: J, Prakash
+Subject: Re: (Case 54948) Target page-> Metric filter value setting doesn’t correspond to the applied filter 
+
+Jai,
+I chose filter settings, applied them and saved that filter.  Then reset the filters and then reloaded the saved filter.  Everything came up as it should.  If I am misunderstanding, please send me instructions on how to recreate this.  I am closing the others as well 'As responded' as please let me know if I need to try something else to reproduce this - debra
+
+-- 
+FogBugz
+cma-cases@advisory.com
+---------------------------------------------------------------------------
+Powered by FogBugz from Fog Creek Software. http://www.fogcreek.com/fogbugz
+
+
+-----Original Message-----
+From: "J, Prakash" <JP@advisory.com>
+Reply-To: "J, Prakash" <JP@advisory.com>
+Date: Fri, 9 Nov 2012 10:20:51 -0500
+To: "Crimson Market Advantage Cases" <CMA-cases@advisory.com>
+Subject: Target page-> Metric filter value setting doesn’t correspond to the applied filter  
+
+>REPORTED BY: Jai Prakash
+>
+>DESCRIPTION OF ISSUE:  Target page-> Filter values seen doesn’t correspond to the applied filter  
+>
+>STEPS TO REPRODUCE :
+>
+>1.  Opportunities-> Target page ->Targets-> set the page filter by keeping any specialties (filter) involved in it(Keep other filters as it is) and apply it
+>
+>2.  Then rest the filter
+>
+>3.  Now apply the saved filter, the result seen is corresponding to the applied filter, but the specialties filter text box still points the  “All Selected”
+>
+>Note: The above same has been happened if we have few other filter setting in the “Apply filter” option. They are,  Employment status, Sub service lines. The same has been observed for the individual physicians-> Network tab
+>
+>ACTUAL RESULTS VERSUS EXPECTED RESULTS:
+>
+>Actual Result: Specialties filter fails to show the specialty set in the apply filter
+>
+>Expected results: Specialties filter show have to reflect the specialty set in the apply filter
+>
+>IMPACT OF ISSUE TO DEPLOYMENT OF THE RELEASE:  Medium
+>
+>BUILD VERSION/SITE URL/DB:
+>
+>Site: https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4 <https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4>
+>
+>DB:  Lakelandhealth_Tango
+>
+>Release:  CMA.2012.09.Tango
+>
+>Server: 192.168.17.82
+>
+>BROWSER:  IE8
+
+]]></sBodyText><sBodyHTML><![CDATA[Hi Debra<br />
+<br />
+Please find the attached screen shot, it would be helpful to get the better idea to reproduce the below issue. If you understand this, follow the same type of steps for the following cases too, they are 54955, 54947, 54946<br />
+<br />
+Note: This issue is rectified in the latest build &quot;7142&quot;<br />
+<br />
+Thanks<br />
+Jai Prakash<br />
+<br />
+-----Original Message-----<br />
+From: FogBugz [mailto:cma-cases@advisory.com] <br />
+Sent: Tuesday, November 13, 2012 8:25 PM<br />
+To: J, Prakash<br />
+Subject: Re: (Case 54948) Target page-&gt; Metric filter value setting doesn&#8217;t correspond to the applied filter <br />
+<br />
+Jai,<br />
+I chose filter settings, applied them and saved that filter.&nbsp; Then reset the filters and then reloaded the saved filter.&nbsp; Everything came up as it should.&nbsp; If I am misunderstanding, please send me instructions on how to recreate this.&nbsp; I am closing the others as well 'As responded' as please let me know if I need to try something else to reproduce this - debra<br />
+<br />
+-- <br />
+FogBugz<br />
+cma-cases@advisory.com<br />
+---------------------------------------------------------------------------<br />
+Powered by FogBugz from Fog Creek Software. http://www.fogcreek.com/fogbugz<br />
+<br />
+<br />
+-----Original Message-----<br />
+From: &quot;J, Prakash&quot; &lt;JP@advisory.com&gt;<br />
+Reply-To: &quot;J, Prakash&quot; &lt;JP@advisory.com&gt;<br />
+Date: Fri, 9 Nov 2012 10:20:51 -0500<br />
+To: &quot;Crimson Market Advantage Cases&quot; &lt;CMA-cases@advisory.com&gt;<br />
+Subject: Target page-&gt; Metric filter value setting doesn&#8217;t correspond to the applied filter&nbsp; <br />
+<br />
+&gt;REPORTED BY: Jai Prakash<br />
+&gt;<br />
+&gt;DESCRIPTION OF ISSUE:&nbsp; Target page-&gt; Filter values seen doesn&#8217;t correspond to the applied filter&nbsp; <br />
+&gt;<br />
+&gt;STEPS TO REPRODUCE :<br />
+&gt;<br />
+&gt;1.&nbsp; Opportunities-&gt; Target page -&gt;Targets-&gt; set the page filter by keeping any specialties (filter) involved in it(Keep other filters as it is) and apply it<br />
+&gt;<br />
+&gt;2.&nbsp; Then rest the filter<br />
+&gt;<br />
+&gt;3.&nbsp; Now apply the saved filter, the result seen is corresponding to the applied filter, but the specialties filter text box still points the&nbsp; &#8220;All Selected&#8221;<br />
+&gt;<br />
+&gt;Note: The above same has been happened if we have few other filter setting in the &#8220;Apply filter&#8221; option. They are,&nbsp; Employment status, Sub service lines. The same has been observed for the individual physicians-&gt; Network tab<br />
+&gt;<br />
+&gt;ACTUAL RESULTS VERSUS EXPECTED RESULTS:<br />
+&gt;<br />
+&gt;Actual Result: Specialties filter fails to show the specialty set in the apply filter<br />
+&gt;<br />
+&gt;Expected results: Specialties filter show have to reflect the specialty set in the apply filter<br />
+&gt;<br />
+&gt;IMPACT OF ISSUE TO DEPLOYMENT OF THE RELEASE:&nbsp; Medium<br />
+&gt;<br />
+&gt;BUILD VERSION/SITE URL/DB:<br />
+&gt;<br />
+&gt;Site: https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4 &lt;https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4&gt;<br />
+&gt;<br />
+&gt;DB:&nbsp; Lakelandhealth_Tango<br />
+&gt;<br />
+&gt;Release:&nbsp; CMA.2012.09.Tango<br />
+&gt;<br />
+&gt;Server: 192.168.17.82<br />
+&gt;<br />
+&gt;BROWSER:&nbsp; IE8<br />
+<br />
+]]></sBodyHTML><rgAttachments><attachment><sFileName><![CDATA[filter.png]]></sFileName><sURL><![CDATA[default.asp?pg=pgDownload&amp;pgType=pgFile&amp;ixBugEvent=273455&amp;ixAttachment=9074&amp;sFileName=filter.png&sTicket=]]></sURL></attachment></rgAttachments><evtDescription><![CDATA[Reopened (assigned to Nick Allen) by FogBugz]]></evtDescription><bEmail>true</bEmail><bExternal>true</bExternal><sPerson><![CDATA[FogBugz]]></sPerson></event><event ixBugEvent="276788" ixBug="54948"><ixBugEvent>276788</ixBugEvent><evt>14</evt><sVerb><![CDATA[Resolved]]></sVerb><ixPerson>154</ixPerson><ixPersonAssignedTo>154</ixPersonAssignedTo><dt>2012-11-15T20:46:13Z</dt><s><![CDATA[Per Jai's comment this has been resolved in the latest build]]></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges><![CDATA[Root cause milestone changed from '' to 'INV'
+Status changed from 'New' to 'Resolved (Not Reproducible)'.
+]]></sChanges><sFormat><![CDATA[html]]></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Resolved (Not Reproducible) and assigned to Nick Allen by Nick Allen]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Nick Allen]]></sPerson><sHtml><![CDATA[<p>
+	Per Jai&#39;s comment this has been resolved in the latest build</p>
+]]></sHtml></event><event ixBugEvent="276789" ixBug="54948"><ixBugEvent>276789</ixBugEvent><evt>6</evt><sVerb><![CDATA[Closed]]></sVerb><ixPerson>154</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-11-15T20:46:13Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Closed by Nick Allen]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Nick Allen]]></sPerson><sHtml></sHtml></event></events></case><case ixBug="55197" operations="edit,reopen,email,remind"><sLatestTextSummary></sLatestTextSummary><sProject><![CDATA[CMA-Inbox]]></sProject><ixProject>22</ixProject><ixArea>49</ixArea><sArea><![CDATA[Misc]]></sArea><ixBug>55197</ixBug><ixBugParent>0</ixBugParent><fOpen>false</fOpen><sTitle><![CDATA[Inbox case posting test - please set to resolve status.]]></sTitle><ixPersonAssignedTo>1</ixPersonAssignedTo><sPersonAssignedTo><![CDATA[CLOSED]]></sPersonAssignedTo><ixPersonOpenedBy>190</ixPersonOpenedBy><ixPersonClosedBy>276</ixPersonClosedBy><ixPersonLastEditedBy>276</ixPersonLastEditedBy><ixStatus>9</ixStatus><sStatus><![CDATA[Closed (Won't Implement)]]></sStatus><sPriority><![CDATA[Normal]]></sPriority><ixFixFor>1</ixFixFor><sFixFor><![CDATA[Undecided]]></sFixFor><dtFixFor></dtFixFor><hrsCurrEst>0</hrsCurrEst><hrsElapsed>0</hrsElapsed><ixCategory>2</ixCategory><dtOpened>2012-11-13T16:28:21Z</dtOpened><dtResolved>2012-11-13T16:38:32Z</dtResolved><dtClosed>2012-11-13T16:38:49Z</dtClosed><dtDue></dtDue><dtLastView></dtLastView><ixGroup>0</ixGroup><ixBugChildren></ixBugChildren><sCategory><![CDATA[Feature]]></sCategory><ixRelatedBugs></ixRelatedBugs><tags></tags><ixRelatedBugs></ixRelatedBugs><plugin_customfields_at_fogcreek_com_rootxcausexmilestonek65></plugin_customfields_at_fogcreek_com_rootxcausexmilestonek65><events><event ixBugEvent="272261" ixBug="55197"><ixBugEvent>272261</ixBugEvent><evt>1</evt><sVerb><![CDATA[Opened]]></sVerb><ixPerson>190</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-11-13T16:28:21Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Opened by Alykhan Daya]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Alykhan Daya]]></sPerson><sHtml></sHtml></event><event ixBugEvent="272262" ixBug="55197"><ixBugEvent>272262</ixBugEvent><evt>3</evt><sVerb><![CDATA[Assigned]]></sVerb><ixPerson>190</ixPerson><ixPersonAssignedTo>190</ixPersonAssignedTo><dt>2012-11-13T16:28:21Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Assigned to Alykhan Daya by Alykhan Daya]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Alykhan Daya]]></sPerson><sHtml></sHtml></event><event ixBugEvent="272272" ixBug="55197"><ixBugEvent>272272</ixBugEvent><evt>14</evt><sVerb><![CDATA[Resolved]]></sVerb><ixPerson>276</ixPerson><ixPersonAssignedTo>190</ixPersonAssignedTo><dt>2012-11-13T16:38:32Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges><![CDATA[Status changed from 'New' to 'Resolved (Won't Implement)'.
+]]></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Resolved (Won't Implement) and assigned to Alykhan Daya by Debra Brewer]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Debra Brewer]]></sPerson><sHtml></sHtml></event><event ixBugEvent="272273" ixBug="55197"><ixBugEvent>272273</ixBugEvent><evt>6</evt><sVerb><![CDATA[Closed]]></sVerb><ixPerson>276</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-11-13T16:38:49Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Closed by Debra Brewer]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Debra Brewer]]></sPerson><sHtml></sHtml></event></events></case><case ixBug="54955" operations="edit,reopen,reply,forward,remind"><sLatestTextSummary><![CDATA[Jai,  I chose filter settings, applied them and saved that filter.  Then reset the filters and then reloaded the saved filter.  Everything came up as it should.  If I am misunderstanding, please send me instructions on how to recreate this.  I am ...]]></sLatestTextSummary><sProject><![CDATA[CMA-Inbox]]></sProject><ixProject>22</ixProject><ixArea>65</ixArea><sArea><![CDATA[Undecided]]></sArea><ixBug>54955</ixBug><ixBugParent>0</ixBugParent><fOpen>false</fOpen><sTitle><![CDATA[Geographic analysis-> Filter values seen doesn’t correspond to the applied filter  ]]></sTitle><ixPersonAssignedTo>1</ixPersonAssignedTo><sPersonAssignedTo><![CDATA[CLOSED]]></sPersonAssignedTo><ixPersonOpenedBy>154</ixPersonOpenedBy><ixPersonClosedBy>276</ixPersonClosedBy><ixPersonLastEditedBy>276</ixPersonLastEditedBy><ixStatus>3</ixStatus><sStatus><![CDATA[Closed (Not Reproducible)]]></sStatus><sPriority><![CDATA[Normal]]></sPriority><ixFixFor>1</ixFixFor><sFixFor><![CDATA[Undecided]]></sFixFor><dtFixFor></dtFixFor><hrsCurrEst>0</hrsCurrEst><hrsElapsed>0</hrsElapsed><ixCategory>1</ixCategory><dtOpened>2012-11-09T16:40:35Z</dtOpened><dtResolved>2012-11-13T14:55:49Z</dtResolved><dtClosed>2012-11-13T14:55:49Z</dtClosed><dtDue></dtDue><dtLastView></dtLastView><ixGroup>0</ixGroup><ixBugChildren></ixBugChildren><sCategory><![CDATA[Bug]]></sCategory><ixRelatedBugs></ixRelatedBugs><tags><tag><![CDATA[CMA-Inbox]]></tag></tags><ixRelatedBugs></ixRelatedBugs><plugin_customfields_at_fogcreek_com_rootxcausexmilestonek65></plugin_customfields_at_fogcreek_com_rootxcausexmilestonek65><events><event ixBugEvent="270612" ixBug="54955"><ixBugEvent>270612</ixBugEvent><evt>11</evt><sVerb><![CDATA[Incoming Email]]></sVerb><ixPerson>154</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-11-09T16:40:35Z</dt><s><![CDATA[From: "J, Prakash" <JP@advisory.com>Date: Fri, 9 Nov 2012 11:35:34 -0500To: "Crimson Market Advantage Cases" <CMA-cases@advisory.com>Cc: Subject: Geographic analysis-> Filter values seen doesn’t correspond to the applied filter  REPORTED BY: Jai Prakash
+
+ 
+
+DESCRIPTION OF ISSUE:  Geographic analysis-> Filter values seen doesn’t correspond to the applied filter  
+
+ 
+
+STEPS TO REPRODUCE :
+
+ 
+
+1.       Opportunities-> Geographic analysis->  choose any area from the map and then perform actions-> competitor facilities
+
+2.       Then choose any service lines and apply it, then save the filter settings through “Apply filter”
+
+3.       Then reset it
+
+4.       Now apply the saved filter, the result seen is corresponding to the applied filter, but the service lines filter text box still points the  “All Selected”
+
+ 
+
+ 
+
+ 
+
+ 
+
+ACTUAL RESULTS VERSUS EXPECTED RESULTS:
+
+ 
+
+Actual Result: Service lines filter fails to show the service lines set in the apply filter
+
+ 
+
+Expected results: Service lines should have to reflect the service lines set in the apply filter
+
+ 
+
+IMPACT OF ISSUE TO DEPLOYMENT OF THE RELEASE:  Medium
+
+ 
+
+BUILD VERSION/SITE URL/DB:
+
+ 
+
+Site: https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4 <https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4>
+
+DB:   Lakelandhealth_Tango
+
+Release:  CMA.2012.09.Tango
+
+Server: 192.168.17.82
+
+BROWSER:  IE8]]></s><fEmail>true</fEmail><fHTML>true</fHTML><fExternal>true</fExternal><sChanges></sChanges><sFormat></sFormat><sFrom><![CDATA["J, Prakash" <JP@advisory.com>]]></sFrom><sTo><![CDATA["Crimson Market Advantage Cases" <CMA-cases@advisory.com>]]></sTo><sCC></sCC><sBCC></sBCC><sReplyTo><![CDATA["J, Prakash" <JP@advisory.com>]]></sReplyTo><sSubject><![CDATA[Geographic analysis-> Filter values seen doesn’t correspond to the applied filter  ]]></sSubject><sDate><![CDATA[Fri, 9 Nov 2012 11:35:34 -0500]]></sDate><sMessageId><![CDATA[<567DBAD9C37DE442A8400CD774231E6C3AF539A9@DC-MBOX1.advisory.com>]]></sMessageId><sBodyText><![CDATA[REPORTED BY: Jai Prakash
+
+ 
+
+DESCRIPTION OF ISSUE:  Geographic analysis-> Filter values seen doesn’t correspond to the applied filter  
+
+ 
+
+STEPS TO REPRODUCE :
+
+ 
+
+1.       Opportunities-> Geographic analysis->  choose any area from the map and then perform actions-> competitor facilities
+
+2.       Then choose any service lines and apply it, then save the filter settings through “Apply filter”
+
+3.       Then reset it
+
+4.       Now apply the saved filter, the result seen is corresponding to the applied filter, but the service lines filter text box still points the  “All Selected”
+
+ 
+
+ 
+
+ 
+
+ 
+
+ACTUAL RESULTS VERSUS EXPECTED RESULTS:
+
+ 
+
+Actual Result: Service lines filter fails to show the service lines set in the apply filter
+
+ 
+
+Expected results: Service lines should have to reflect the service lines set in the apply filter
+
+ 
+
+IMPACT OF ISSUE TO DEPLOYMENT OF THE RELEASE:  Medium
+
+ 
+
+BUILD VERSION/SITE URL/DB:
+
+ 
+
+Site: https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4 <https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4>
+
+DB:   Lakelandhealth_Tango
+
+Release:  CMA.2012.09.Tango
+
+Server: 192.168.17.82
+
+BROWSER:  IE8]]></sBodyText><sBodyHTML><![CDATA[REPORTED BY: Jai Prakash<br />
+<br />
+&nbsp;<br />
+<br />
+DESCRIPTION OF ISSUE:&nbsp; Geographic analysis-&gt; Filter values seen doesn&#8217;t correspond to the applied filter&nbsp; <br />
+<br />
+&nbsp;<br />
+<br />
+STEPS TO REPRODUCE :<br />
+<br />
+&nbsp;<br />
+<br />
+1.&nbsp; &nbsp; &nbsp;&nbsp; Opportunities-&gt; Geographic analysis-&gt;&nbsp; choose any area from the map and then perform actions-&gt; competitor facilities<br />
+<br />
+2.&nbsp; &nbsp; &nbsp;&nbsp; Then choose any service lines and apply it, then save the filter settings through &#8220;Apply filter&#8221;<br />
+<br />
+3.&nbsp; &nbsp; &nbsp;&nbsp; Then reset it<br />
+<br />
+4.&nbsp; &nbsp; &nbsp;&nbsp; Now apply the saved filter, the result seen is corresponding to the applied filter, but the service lines filter text box still points the&nbsp; &#8220;All Selected&#8221;<br />
+<br />
+&nbsp;<br />
+<br />
+&nbsp;<br />
+<br />
+&nbsp;<br />
+<br />
+&nbsp;<br />
+<br />
+ACTUAL RESULTS VERSUS EXPECTED RESULTS:<br />
+<br />
+&nbsp;<br />
+<br />
+Actual Result: Service lines filter fails to show the service lines set in the apply filter<br />
+<br />
+&nbsp;<br />
+<br />
+Expected results: Service lines should have to reflect the service lines set in the apply filter<br />
+<br />
+&nbsp;<br />
+<br />
+IMPACT OF ISSUE TO DEPLOYMENT OF THE RELEASE:&nbsp; Medium<br />
+<br />
+&nbsp;<br />
+<br />
+BUILD VERSION/SITE URL/DB:<br />
+<br />
+&nbsp;<br />
+<br />
+Site: https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4 &lt;https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4&gt;<br />
+<br />
+DB:&nbsp;&nbsp; Lakelandhealth_Tango<br />
+<br />
+Release:&nbsp; CMA.2012.09.Tango<br />
+<br />
+Server: 192.168.17.82<br />
+<br />
+BROWSER:&nbsp; IE8]]></sBodyHTML><rgAttachments></rgAttachments><evtDescription><![CDATA[Incoming email received]]></evtDescription><bEmail>true</bEmail><bExternal>true</bExternal><sPerson><![CDATA[Nick Allen]]></sPerson></event><event ixBugEvent="270613" ixBug="54955"><ixBugEvent>270613</ixBugEvent><evt>13</evt><sVerb><![CDATA[NotSorted]]></sVerb><ixPerson>-1</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-11-09T16:40:35Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>true</fExternal><sChanges><![CDATA[Remains in 'Undecided' area.
+]]></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Email not sorted automatically - training in progress]]></evtDescription><bEmail>false</bEmail><bExternal>true</bExternal><sPerson><![CDATA[FogBugz]]></sPerson><sHtml></sHtml></event><event ixBugEvent="270614" ixBug="54955"><ixBugEvent>270614</ixBugEvent><evt>3</evt><sVerb><![CDATA[Assigned]]></sVerb><ixPerson>-1</ixPerson><ixPersonAssignedTo>154</ixPersonAssignedTo><dt>2012-11-09T16:40:35Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>true</fExternal><sChanges></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Assigned to Nick Allen by FogBugz]]></evtDescription><bEmail>false</bEmail><bExternal>true</bExternal><sPerson><![CDATA[FogBugz]]></sPerson><sHtml></sHtml></event><event ixBugEvent="271537" ixBug="54955"><ixBugEvent>271537</ixBugEvent><evt>14</evt><sVerb><![CDATA[Resolved]]></sVerb><ixPerson>276</ixPerson><ixPersonAssignedTo>154</ixPersonAssignedTo><dt>2012-11-12T16:59:27Z</dt><s><![CDATA[Cannot reproduce this issue.  I tried changing the filter settings and then saving them.  then did a reset filter and then brought back up the saved filter.  The settings do change to that of the saved filter.]]></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges><![CDATA[Category changed from 'Inquiry' to 'Bug'.
+Status changed from 'Active' to 'Resolved (Not Reproducible)'.
+]]></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Resolved (Not Reproducible) and assigned to Nick Allen by Debra Brewer]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Debra Brewer]]></sPerson><sHtml><![CDATA[Cannot reproduce this issue.&nbsp; I tried changing the filter settings and then saving them.&nbsp; then did a reset filter and then brought back up the saved filter.&nbsp; The settings do change to that of the saved filter.]]></sHtml></event><event ixBugEvent="271674" ixBug="54955"><ixBugEvent>271674</ixBugEvent><evt>14</evt><sVerb><![CDATA[Resolved]]></sVerb><ixPerson>276</ixPerson><ixPersonAssignedTo>154</ixPersonAssignedTo><dt>2012-11-12T19:00:47Z</dt><s><![CDATA[Cannot reproduce with the instructions listed below]]></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges><![CDATA[Added tag 'CMA-Inbox'.
+]]></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Resolved (Not Reproducible) and assigned to Nick Allen by Debra Brewer]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Debra Brewer]]></sPerson><sHtml><![CDATA[Cannot reproduce with the instructions listed below]]></sHtml></event><event ixBugEvent="272073" ixBug="54955"><ixBugEvent>272073</ixBugEvent><evt>3</evt><sVerb><![CDATA[Assigned]]></sVerb><ixPerson>276</ixPerson><ixPersonAssignedTo>276</ixPersonAssignedTo><dt>2012-11-13T14:55:41Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Assigned to Debra Brewer by Debra Brewer]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Debra Brewer]]></sPerson><sHtml></sHtml></event><event ixBugEvent="272074" ixBug="54955"><ixBugEvent>272074</ixBugEvent><evt>9</evt><sVerb><![CDATA[Replied]]></sVerb><ixPerson>276</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-11-13T14:55:49Z</dt><s><![CDATA[From: "FogBugz" <cma-cases@advisory.com>Date: Tue, 13 Nov 2012 08:55:49 -06:00To: "J, Prakash" <JP@advisory.com>Cc: Subject: Re: (Case 54955) Geographic analysis-> Filter values seen doesn’t correspond to the applied filter  Jai,
+I chose filter settings, applied them and saved that filter.  Then reset the filters and then reloaded the saved filter.  Everything came up as it should.  If I am misunderstanding, please send me instructions on how to recreate this.  I am closing the others as well 'As responded' as please let me know if I need to try something else to reproduce this - debra
+
+-- 
+FogBugz
+cma-cases@advisory.com
+---------------------------------------------------------------------------
+Powered by FogBugz from Fog Creek Software. http://www.fogcreek.com/fogbugz
+
+
+-----Original Message-----
+From: "J, Prakash" <JP@advisory.com>
+Reply-To: "J, Prakash" <JP@advisory.com>
+Date: Fri, 9 Nov 2012 11:35:34 -0500
+To: "Crimson Market Advantage Cases" <CMA-cases@advisory.com>
+Subject: Geographic analysis-> Filter values seen doesn’t correspond to the applied filter  
+
+>REPORTED BY: Jai Prakash
+>
+>DESCRIPTION OF ISSUE:  Geographic analysis-> Filter values seen doesn’t correspond to the applied filter  
+>
+>STEPS TO REPRODUCE :
+>
+>1.  Opportunities-> Geographic analysis->  choose any area from the map and then perform actions-> competitor facilities
+>
+>2.  Then choose any service lines and apply it, then save the filter settings through “Apply filter”
+>
+>3.  Then reset it
+>
+>4.  Now apply the saved filter, the result seen is corresponding to the applied filter, but the service lines filter text box still points the  “All Selected”
+>
+>ACTUAL RESULTS VERSUS EXPECTED RESULTS:
+>
+>Actual Result: Service lines filter fails to show the service lines set in the apply filter
+>
+>Expected results: Service lines should have to reflect the service lines set in the apply filter
+>
+>IMPACT OF ISSUE TO DEPLOYMENT OF THE RELEASE:  Medium
+>
+>BUILD VERSION/SITE URL/DB:
+>
+>Site: https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4 <https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4>
+>
+>DB:  Lakelandhealth_Tango
+>
+>Release:  CMA.2012.09.Tango
+>
+>Server: 192.168.17.82
+>
+>BROWSER:  IE8]]></s><fEmail>true</fEmail><fHTML>true</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat></sFormat><sFrom><![CDATA["FogBugz" <cma-cases@advisory.com>]]></sFrom><sTo><![CDATA["J, Prakash" <JP@advisory.com>]]></sTo><sCC></sCC><sBCC></sBCC><sReplyTo><![CDATA["FogBugz" <cma-cases@advisory.com>]]></sReplyTo><sSubject><![CDATA[Re: (Case 54955) Geographic analysis-> Filter values seen doesn’t correspond to the applied filter  ]]></sSubject><sDate><![CDATA[Tue, 13 Nov 2012 08:55:49 -06:00]]></sDate><sMessageId></sMessageId><sBodyText><![CDATA[Jai,
+I chose filter settings, applied them and saved that filter.  Then reset the filters and then reloaded the saved filter.  Everything came up as it should.  If I am misunderstanding, please send me instructions on how to recreate this.  I am closing the others as well 'As responded' as please let me know if I need to try something else to reproduce this - debra
+
+-- 
+FogBugz
+cma-cases@advisory.com
+---------------------------------------------------------------------------
+Powered by FogBugz from Fog Creek Software. http://www.fogcreek.com/fogbugz
+
+
+-----Original Message-----
+From: "J, Prakash" <JP@advisory.com>
+Reply-To: "J, Prakash" <JP@advisory.com>
+Date: Fri, 9 Nov 2012 11:35:34 -0500
+To: "Crimson Market Advantage Cases" <CMA-cases@advisory.com>
+Subject: Geographic analysis-> Filter values seen doesn’t correspond to the applied filter  
+
+>REPORTED BY: Jai Prakash
+>
+>DESCRIPTION OF ISSUE:  Geographic analysis-> Filter values seen doesn’t correspond to the applied filter  
+>
+>STEPS TO REPRODUCE :
+>
+>1.  Opportunities-> Geographic analysis->  choose any area from the map and then perform actions-> competitor facilities
+>
+>2.  Then choose any service lines and apply it, then save the filter settings through “Apply filter”
+>
+>3.  Then reset it
+>
+>4.  Now apply the saved filter, the result seen is corresponding to the applied filter, but the service lines filter text box still points the  “All Selected”
+>
+>ACTUAL RESULTS VERSUS EXPECTED RESULTS:
+>
+>Actual Result: Service lines filter fails to show the service lines set in the apply filter
+>
+>Expected results: Service lines should have to reflect the service lines set in the apply filter
+>
+>IMPACT OF ISSUE TO DEPLOYMENT OF THE RELEASE:  Medium
+>
+>BUILD VERSION/SITE URL/DB:
+>
+>Site: https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4 <https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4>
+>
+>DB:  Lakelandhealth_Tango
+>
+>Release:  CMA.2012.09.Tango
+>
+>Server: 192.168.17.82
+>
+>BROWSER:  IE8]]></sBodyText><sBodyHTML><![CDATA[Jai,<br />
+I chose filter settings, applied them and saved that filter.&nbsp; Then reset the filters and then reloaded the saved filter.&nbsp; Everything came up as it should.&nbsp; If I am misunderstanding, please send me instructions on how to recreate this.&nbsp; I am closing the others as well 'As responded' as please let me know if I need to try something else to reproduce this - debra<br />
+<br />
+-- <br />
+FogBugz<br />
+cma-cases@advisory.com<br />
+---------------------------------------------------------------------------<br />
+Powered by FogBugz from Fog Creek Software. http://www.fogcreek.com/fogbugz<br />
+<br />
+<br />
+-----Original Message-----<br />
+From: &quot;J, Prakash&quot; &lt;JP@advisory.com&gt;<br />
+Reply-To: &quot;J, Prakash&quot; &lt;JP@advisory.com&gt;<br />
+Date: Fri, 9 Nov 2012 11:35:34 -0500<br />
+To: &quot;Crimson Market Advantage Cases&quot; &lt;CMA-cases@advisory.com&gt;<br />
+Subject: Geographic analysis-&gt; Filter values seen doesn&#8217;t correspond to the applied filter&nbsp; <br />
+<br />
+&gt;REPORTED BY: Jai Prakash<br />
+&gt;<br />
+&gt;DESCRIPTION OF ISSUE:&nbsp; Geographic analysis-&gt; Filter values seen doesn&#8217;t correspond to the applied filter&nbsp; <br />
+&gt;<br />
+&gt;STEPS TO REPRODUCE :<br />
+&gt;<br />
+&gt;1.&nbsp; Opportunities-&gt; Geographic analysis-&gt;&nbsp; choose any area from the map and then perform actions-&gt; competitor facilities<br />
+&gt;<br />
+&gt;2.&nbsp; Then choose any service lines and apply it, then save the filter settings through &#8220;Apply filter&#8221;<br />
+&gt;<br />
+&gt;3.&nbsp; Then reset it<br />
+&gt;<br />
+&gt;4.&nbsp; Now apply the saved filter, the result seen is corresponding to the applied filter, but the service lines filter text box still points the&nbsp; &#8220;All Selected&#8221;<br />
+&gt;<br />
+&gt;ACTUAL RESULTS VERSUS EXPECTED RESULTS:<br />
+&gt;<br />
+&gt;Actual Result: Service lines filter fails to show the service lines set in the apply filter<br />
+&gt;<br />
+&gt;Expected results: Service lines should have to reflect the service lines set in the apply filter<br />
+&gt;<br />
+&gt;IMPACT OF ISSUE TO DEPLOYMENT OF THE RELEASE:&nbsp; Medium<br />
+&gt;<br />
+&gt;BUILD VERSION/SITE URL/DB:<br />
+&gt;<br />
+&gt;Site: https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4 &lt;https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4&gt;<br />
+&gt;<br />
+&gt;DB:&nbsp; Lakelandhealth_Tango<br />
+&gt;<br />
+&gt;Release:&nbsp; CMA.2012.09.Tango<br />
+&gt;<br />
+&gt;Server: 192.168.17.82<br />
+&gt;<br />
+&gt;BROWSER:&nbsp; IE8]]></sBodyHTML><rgAttachments></rgAttachments><evtDescription><![CDATA[Replied by Debra Brewer]]></evtDescription><bEmail>true</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Debra Brewer]]></sPerson></event><event ixBugEvent="272075" ixBug="54955"><ixBugEvent>272075</ixBugEvent><evt>14</evt><sVerb><![CDATA[Resolved]]></sVerb><ixPerson>276</ixPerson><ixPersonAssignedTo>276</ixPersonAssignedTo><dt>2012-11-13T14:55:49Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Resolved (Not Reproducible) and assigned to Debra Brewer by Debra Brewer]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Debra Brewer]]></sPerson><sHtml></sHtml></event><event ixBugEvent="272076" ixBug="54955"><ixBugEvent>272076</ixBugEvent><evt>6</evt><sVerb><![CDATA[Closed]]></sVerb><ixPerson>276</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-11-13T14:55:49Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Closed by Debra Brewer]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Debra Brewer]]></sPerson><sHtml></sHtml></event></events></case><case ixBug="54947" operations="edit,reopen,reply,forward,remind"><sLatestTextSummary><![CDATA[Jai,  I chose filter settings, applied them and saved that filter.  Then reset the filters and then reloaded the saved filter.  Everything came up as it should.  If I am misunderstanding, please send me instructions on how to recreate this.  I am ...]]></sLatestTextSummary><sProject><![CDATA[CMA-Inbox]]></sProject><ixProject>22</ixProject><ixArea>65</ixArea><sArea><![CDATA[Undecided]]></sArea><ixBug>54947</ixBug><ixBugParent>0</ixBugParent><fOpen>false</fOpen><sTitle><![CDATA[Market leakage-> Metric filter value setting doesn’t correspond to the applied filter  ]]></sTitle><ixPersonAssignedTo>1</ixPersonAssignedTo><sPersonAssignedTo><![CDATA[CLOSED]]></sPersonAssignedTo><ixPersonOpenedBy>154</ixPersonOpenedBy><ixPersonClosedBy>276</ixPersonClosedBy><ixPersonLastEditedBy>276</ixPersonLastEditedBy><ixStatus>3</ixStatus><sStatus><![CDATA[Closed (Not Reproducible)]]></sStatus><sPriority><![CDATA[Normal]]></sPriority><ixFixFor>1</ixFixFor><sFixFor><![CDATA[Undecided]]></sFixFor><dtFixFor></dtFixFor><hrsCurrEst>0</hrsCurrEst><hrsElapsed>0</hrsElapsed><ixCategory>1</ixCategory><dtOpened>2012-11-09T15:07:38Z</dtOpened><dtResolved>2012-11-13T14:55:00Z</dtResolved><dtClosed>2012-11-13T14:55:00Z</dtClosed><dtDue></dtDue><dtLastView></dtLastView><ixGroup>0</ixGroup><ixBugChildren></ixBugChildren><sCategory><![CDATA[Bug]]></sCategory><ixRelatedBugs></ixRelatedBugs><tags><tag><![CDATA[CMA-Inbox]]></tag></tags><ixRelatedBugs></ixRelatedBugs><plugin_customfields_at_fogcreek_com_rootxcausexmilestonek65></plugin_customfields_at_fogcreek_com_rootxcausexmilestonek65><events><event ixBugEvent="270514" ixBug="54947"><ixBugEvent>270514</ixBugEvent><evt>11</evt><sVerb><![CDATA[Incoming Email]]></sVerb><ixPerson>154</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-11-09T15:07:38Z</dt><s><![CDATA[From: "J, Prakash" <JP@advisory.com>Date: Fri, 9 Nov 2012 10:03:09 -0500To: "Crimson Market Advantage Cases" <CMA-cases@advisory.com>Cc: Subject: Market leakage-> Metric filter value setting doesn’t correspond to the applied filter  REPORTED BY: Jai Prakash
+
+ 
+
+DESCRIPTION OF ISSUE:  Market leakage-> Metric filter value setting doesn’t correspond to the applied filter  
+
+ 
+
+STEPS TO REPRODUCE :
+
+ 
+
+1.       Opportunities-> Market leakage ->Physicians-> set the page filter by keeping the metric as contribution margin (Keep other filters as it is) and apply it
+
+2.       Then reset the filter
+
+3.       Now apply the saved filter, the result seen is corresponding to the contribution margin but the metric text box still points the “Revenue”
+
+ 
+
+Note: The above same has been happened if we have few other filter setting in the “Apply filter” option. They are, Specialties, Employment status, Sub service lines
+
+ 
+
+ACTUAL RESULTS VERSUS EXPECTED RESULTS:
+
+ 
+
+Actual Result: Metric symbol  not changing to contribution margin
+
+ 
+
+Expected results: Metric symbol should be points the revenue
+
+ 
+
+IMPACT OF ISSUE TO DEPLOYMENT OF THE RELEASE:  Medium
+
+ 
+
+BUILD VERSION/SITE URL/DB:
+
+ 
+
+Site: https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4 <https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4>
+
+DB:   Lakelandhealth_Tango
+
+Release:  CMA.2012.09.Tango
+
+Server: 192.168.17.82
+
+BROWSER:  IE8]]></s><fEmail>true</fEmail><fHTML>true</fHTML><fExternal>true</fExternal><sChanges></sChanges><sFormat></sFormat><sFrom><![CDATA["J, Prakash" <JP@advisory.com>]]></sFrom><sTo><![CDATA["Crimson Market Advantage Cases" <CMA-cases@advisory.com>]]></sTo><sCC></sCC><sBCC></sBCC><sReplyTo><![CDATA["J, Prakash" <JP@advisory.com>]]></sReplyTo><sSubject><![CDATA[Market leakage-> Metric filter value setting doesn’t correspond to the applied filter  ]]></sSubject><sDate><![CDATA[Fri, 9 Nov 2012 10:03:09 -0500]]></sDate><sMessageId><![CDATA[<567DBAD9C37DE442A8400CD774231E6C3AF5393F@DC-MBOX1.advisory.com>]]></sMessageId><sBodyText><![CDATA[REPORTED BY: Jai Prakash
+
+ 
+
+DESCRIPTION OF ISSUE:  Market leakage-> Metric filter value setting doesn’t correspond to the applied filter  
+
+ 
+
+STEPS TO REPRODUCE :
+
+ 
+
+1.       Opportunities-> Market leakage ->Physicians-> set the page filter by keeping the metric as contribution margin (Keep other filters as it is) and apply it
+
+2.       Then reset the filter
+
+3.       Now apply the saved filter, the result seen is corresponding to the contribution margin but the metric text box still points the “Revenue”
+
+ 
+
+Note: The above same has been happened if we have few other filter setting in the “Apply filter” option. They are, Specialties, Employment status, Sub service lines
+
+ 
+
+ACTUAL RESULTS VERSUS EXPECTED RESULTS:
+
+ 
+
+Actual Result: Metric symbol  not changing to contribution margin
+
+ 
+
+Expected results: Metric symbol should be points the revenue
+
+ 
+
+IMPACT OF ISSUE TO DEPLOYMENT OF THE RELEASE:  Medium
+
+ 
+
+BUILD VERSION/SITE URL/DB:
+
+ 
+
+Site: https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4 <https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4>
+
+DB:   Lakelandhealth_Tango
+
+Release:  CMA.2012.09.Tango
+
+Server: 192.168.17.82
+
+BROWSER:  IE8]]></sBodyText><sBodyHTML><![CDATA[REPORTED BY: Jai Prakash<br />
+<br />
+&nbsp;<br />
+<br />
+DESCRIPTION OF ISSUE:&nbsp; Market leakage-&gt; Metric filter value setting doesn&#8217;t correspond to the applied filter&nbsp; <br />
+<br />
+&nbsp;<br />
+<br />
+STEPS TO REPRODUCE :<br />
+<br />
+&nbsp;<br />
+<br />
+1.&nbsp; &nbsp; &nbsp;&nbsp; Opportunities-&gt; Market leakage -&gt;Physicians-&gt; set the page filter by keeping the metric as contribution margin (Keep other filters as it is) and apply it<br />
+<br />
+2.&nbsp; &nbsp; &nbsp;&nbsp; Then reset the filter<br />
+<br />
+3.&nbsp; &nbsp; &nbsp;&nbsp; Now apply the saved filter, the result seen is corresponding to the contribution margin but the metric text box still points the &#8220;Revenue&#8221;<br />
+<br />
+&nbsp;<br />
+<br />
+Note: The above same has been happened if we have few other filter setting in the &#8220;Apply filter&#8221; option. They are, Specialties, Employment status, Sub service lines<br />
+<br />
+&nbsp;<br />
+<br />
+ACTUAL RESULTS VERSUS EXPECTED RESULTS:<br />
+<br />
+&nbsp;<br />
+<br />
+Actual Result: Metric symbol&nbsp; not changing to contribution margin<br />
+<br />
+&nbsp;<br />
+<br />
+Expected results: Metric symbol should be points the revenue<br />
+<br />
+&nbsp;<br />
+<br />
+IMPACT OF ISSUE TO DEPLOYMENT OF THE RELEASE:&nbsp; Medium<br />
+<br />
+&nbsp;<br />
+<br />
+BUILD VERSION/SITE URL/DB:<br />
+<br />
+&nbsp;<br />
+<br />
+Site: https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4 &lt;https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4&gt;<br />
+<br />
+DB:&nbsp;&nbsp; Lakelandhealth_Tango<br />
+<br />
+Release:&nbsp; CMA.2012.09.Tango<br />
+<br />
+Server: 192.168.17.82<br />
+<br />
+BROWSER:&nbsp; IE8]]></sBodyHTML><rgAttachments></rgAttachments><evtDescription><![CDATA[Incoming email received]]></evtDescription><bEmail>true</bEmail><bExternal>true</bExternal><sPerson><![CDATA[Nick Allen]]></sPerson></event><event ixBugEvent="270515" ixBug="54947"><ixBugEvent>270515</ixBugEvent><evt>13</evt><sVerb><![CDATA[NotSorted]]></sVerb><ixPerson>-1</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-11-09T15:07:38Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>true</fExternal><sChanges><![CDATA[Remains in 'Undecided' area.
+]]></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Email not sorted automatically - training in progress]]></evtDescription><bEmail>false</bEmail><bExternal>true</bExternal><sPerson><![CDATA[FogBugz]]></sPerson><sHtml></sHtml></event><event ixBugEvent="270516" ixBug="54947"><ixBugEvent>270516</ixBugEvent><evt>3</evt><sVerb><![CDATA[Assigned]]></sVerb><ixPerson>-1</ixPerson><ixPersonAssignedTo>154</ixPersonAssignedTo><dt>2012-11-09T15:07:38Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>true</fExternal><sChanges></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Assigned to Nick Allen by FogBugz]]></evtDescription><bEmail>false</bEmail><bExternal>true</bExternal><sPerson><![CDATA[FogBugz]]></sPerson><sHtml></sHtml></event><event ixBugEvent="271675" ixBug="54947"><ixBugEvent>271675</ixBugEvent><evt>14</evt><sVerb><![CDATA[Resolved]]></sVerb><ixPerson>276</ixPerson><ixPersonAssignedTo>154</ixPersonAssignedTo><dt>2012-11-12T19:01:53Z</dt><s><![CDATA[Cannot reproduce with instructions below]]></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges><![CDATA[Category changed from 'Inquiry' to 'Bug'.
+Status changed from 'Active' to 'Resolved (Not Reproducible)'.
+Added tag 'CMA-Inbox'.
+]]></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Resolved (Not Reproducible) and assigned to Nick Allen by Debra Brewer]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Debra Brewer]]></sPerson><sHtml><![CDATA[Cannot reproduce with instructions below]]></sHtml></event><event ixBugEvent="272065" ixBug="54947"><ixBugEvent>272065</ixBugEvent><evt>3</evt><sVerb><![CDATA[Assigned]]></sVerb><ixPerson>276</ixPerson><ixPersonAssignedTo>276</ixPersonAssignedTo><dt>2012-11-13T14:54:39Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Assigned to Debra Brewer by Debra Brewer]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Debra Brewer]]></sPerson><sHtml></sHtml></event><event ixBugEvent="272066" ixBug="54947"><ixBugEvent>272066</ixBugEvent><evt>9</evt><sVerb><![CDATA[Replied]]></sVerb><ixPerson>276</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-11-13T14:54:59Z</dt><s><![CDATA[From: "FogBugz" <cma-cases@advisory.com>Date: Tue, 13 Nov 2012 08:54:59 -06:00To: "J, Prakash" <JP@advisory.com>Cc: Subject: Re: (Case 54947) Market leakage-> Metric filter value setting doesn’t correspond to the applied filter  Jai,
+I chose filter settings, applied them and saved that filter.  Then reset the filters and then reloaded the saved filter.  Everything came up as it should.  If I am misunderstanding, please send me instructions on how to recreate this.  I am closing the others as well 'As responded' as please let me know if I need to try something else to reproduce this - debra
+
+-- 
+FogBugz
+cma-cases@advisory.com
+---------------------------------------------------------------------------
+Powered by FogBugz from Fog Creek Software. http://www.fogcreek.com/fogbugz
+
+
+-----Original Message-----
+From: "J, Prakash" <JP@advisory.com>
+Reply-To: "J, Prakash" <JP@advisory.com>
+Date: Fri, 9 Nov 2012 10:03:09 -0500
+To: "Crimson Market Advantage Cases" <CMA-cases@advisory.com>
+Subject: Market leakage-> Metric filter value setting doesn’t correspond to the applied filter  
+
+>REPORTED BY: Jai Prakash
+>
+>DESCRIPTION OF ISSUE:  Market leakage-> Metric filter value setting doesn’t correspond to the applied filter  
+>
+>STEPS TO REPRODUCE :
+>
+>1.  Opportunities-> Market leakage ->Physicians-> set the page filter by keeping the metric as contribution margin (Keep other filters as it is) and apply it
+>
+>2.  Then reset the filter
+>
+>3.  Now apply the saved filter, the result seen is corresponding to the contribution margin but the metric text box still points the “Revenue”
+>
+>Note: The above same has been happened if we have few other filter setting in the “Apply filter” option. They are, Specialties, Employment status, Sub service lines
+>
+>ACTUAL RESULTS VERSUS EXPECTED RESULTS:
+>
+>Actual Result: Metric symbol  not changing to contribution margin
+>
+>Expected results: Metric symbol should be points the revenue
+>
+>IMPACT OF ISSUE TO DEPLOYMENT OF THE RELEASE:  Medium
+>
+>BUILD VERSION/SITE URL/DB:
+>
+>Site: https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4 <https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4>
+>
+>DB:  Lakelandhealth_Tango
+>
+>Release:  CMA.2012.09.Tango
+>
+>Server: 192.168.17.82
+>
+>BROWSER:  IE8]]></s><fEmail>true</fEmail><fHTML>true</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat></sFormat><sFrom><![CDATA["FogBugz" <cma-cases@advisory.com>]]></sFrom><sTo><![CDATA["J, Prakash" <JP@advisory.com>]]></sTo><sCC></sCC><sBCC></sBCC><sReplyTo><![CDATA["FogBugz" <cma-cases@advisory.com>]]></sReplyTo><sSubject><![CDATA[Re: (Case 54947) Market leakage-> Metric filter value setting doesn’t correspond to the applied filter  ]]></sSubject><sDate><![CDATA[Tue, 13 Nov 2012 08:54:59 -06:00]]></sDate><sMessageId></sMessageId><sBodyText><![CDATA[Jai,
+I chose filter settings, applied them and saved that filter.  Then reset the filters and then reloaded the saved filter.  Everything came up as it should.  If I am misunderstanding, please send me instructions on how to recreate this.  I am closing the others as well 'As responded' as please let me know if I need to try something else to reproduce this - debra
+
+-- 
+FogBugz
+cma-cases@advisory.com
+---------------------------------------------------------------------------
+Powered by FogBugz from Fog Creek Software. http://www.fogcreek.com/fogbugz
+
+
+-----Original Message-----
+From: "J, Prakash" <JP@advisory.com>
+Reply-To: "J, Prakash" <JP@advisory.com>
+Date: Fri, 9 Nov 2012 10:03:09 -0500
+To: "Crimson Market Advantage Cases" <CMA-cases@advisory.com>
+Subject: Market leakage-> Metric filter value setting doesn’t correspond to the applied filter  
+
+>REPORTED BY: Jai Prakash
+>
+>DESCRIPTION OF ISSUE:  Market leakage-> Metric filter value setting doesn’t correspond to the applied filter  
+>
+>STEPS TO REPRODUCE :
+>
+>1.  Opportunities-> Market leakage ->Physicians-> set the page filter by keeping the metric as contribution margin (Keep other filters as it is) and apply it
+>
+>2.  Then reset the filter
+>
+>3.  Now apply the saved filter, the result seen is corresponding to the contribution margin but the metric text box still points the “Revenue”
+>
+>Note: The above same has been happened if we have few other filter setting in the “Apply filter” option. They are, Specialties, Employment status, Sub service lines
+>
+>ACTUAL RESULTS VERSUS EXPECTED RESULTS:
+>
+>Actual Result: Metric symbol  not changing to contribution margin
+>
+>Expected results: Metric symbol should be points the revenue
+>
+>IMPACT OF ISSUE TO DEPLOYMENT OF THE RELEASE:  Medium
+>
+>BUILD VERSION/SITE URL/DB:
+>
+>Site: https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4 <https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4>
+>
+>DB:  Lakelandhealth_Tango
+>
+>Release:  CMA.2012.09.Tango
+>
+>Server: 192.168.17.82
+>
+>BROWSER:  IE8]]></sBodyText><sBodyHTML><![CDATA[Jai,<br />
+I chose filter settings, applied them and saved that filter.&nbsp; Then reset the filters and then reloaded the saved filter.&nbsp; Everything came up as it should.&nbsp; If I am misunderstanding, please send me instructions on how to recreate this.&nbsp; I am closing the others as well 'As responded' as please let me know if I need to try something else to reproduce this - debra<br />
+<br />
+-- <br />
+FogBugz<br />
+cma-cases@advisory.com<br />
+---------------------------------------------------------------------------<br />
+Powered by FogBugz from Fog Creek Software. http://www.fogcreek.com/fogbugz<br />
+<br />
+<br />
+-----Original Message-----<br />
+From: &quot;J, Prakash&quot; &lt;JP@advisory.com&gt;<br />
+Reply-To: &quot;J, Prakash&quot; &lt;JP@advisory.com&gt;<br />
+Date: Fri, 9 Nov 2012 10:03:09 -0500<br />
+To: &quot;Crimson Market Advantage Cases&quot; &lt;CMA-cases@advisory.com&gt;<br />
+Subject: Market leakage-&gt; Metric filter value setting doesn&#8217;t correspond to the applied filter&nbsp; <br />
+<br />
+&gt;REPORTED BY: Jai Prakash<br />
+&gt;<br />
+&gt;DESCRIPTION OF ISSUE:&nbsp; Market leakage-&gt; Metric filter value setting doesn&#8217;t correspond to the applied filter&nbsp; <br />
+&gt;<br />
+&gt;STEPS TO REPRODUCE :<br />
+&gt;<br />
+&gt;1.&nbsp; Opportunities-&gt; Market leakage -&gt;Physicians-&gt; set the page filter by keeping the metric as contribution margin (Keep other filters as it is) and apply it<br />
+&gt;<br />
+&gt;2.&nbsp; Then reset the filter<br />
+&gt;<br />
+&gt;3.&nbsp; Now apply the saved filter, the result seen is corresponding to the contribution margin but the metric text box still points the &#8220;Revenue&#8221;<br />
+&gt;<br />
+&gt;Note: The above same has been happened if we have few other filter setting in the &#8220;Apply filter&#8221; option. They are, Specialties, Employment status, Sub service lines<br />
+&gt;<br />
+&gt;ACTUAL RESULTS VERSUS EXPECTED RESULTS:<br />
+&gt;<br />
+&gt;Actual Result: Metric symbol&nbsp; not changing to contribution margin<br />
+&gt;<br />
+&gt;Expected results: Metric symbol should be points the revenue<br />
+&gt;<br />
+&gt;IMPACT OF ISSUE TO DEPLOYMENT OF THE RELEASE:&nbsp; Medium<br />
+&gt;<br />
+&gt;BUILD VERSION/SITE URL/DB:<br />
+&gt;<br />
+&gt;Site: https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4 &lt;https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4&gt;<br />
+&gt;<br />
+&gt;DB:&nbsp; Lakelandhealth_Tango<br />
+&gt;<br />
+&gt;Release:&nbsp; CMA.2012.09.Tango<br />
+&gt;<br />
+&gt;Server: 192.168.17.82<br />
+&gt;<br />
+&gt;BROWSER:&nbsp; IE8]]></sBodyHTML><rgAttachments></rgAttachments><evtDescription><![CDATA[Replied by Debra Brewer]]></evtDescription><bEmail>true</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Debra Brewer]]></sPerson></event><event ixBugEvent="272067" ixBug="54947"><ixBugEvent>272067</ixBugEvent><evt>14</evt><sVerb><![CDATA[Resolved]]></sVerb><ixPerson>276</ixPerson><ixPersonAssignedTo>276</ixPersonAssignedTo><dt>2012-11-13T14:55:00Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Resolved (Not Reproducible) and assigned to Debra Brewer by Debra Brewer]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Debra Brewer]]></sPerson><sHtml></sHtml></event><event ixBugEvent="272068" ixBug="54947"><ixBugEvent>272068</ixBugEvent><evt>6</evt><sVerb><![CDATA[Closed]]></sVerb><ixPerson>276</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-11-13T14:55:00Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Closed by Debra Brewer]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Debra Brewer]]></sPerson><sHtml></sHtml></event></events></case><case ixBug="54946" operations="edit,reopen,reply,forward,remind"><sLatestTextSummary><![CDATA[Jai,  I chose filter settings, applied them and saved that filter.  Then reset the filters and then reloaded the saved filter.  Everything came up as it should.  If I am misunderstanding, please send me instructions on how to recreate this.  I am ...]]></sLatestTextSummary><sProject><![CDATA[CMA-Inbox]]></sProject><ixProject>22</ixProject><ixArea>65</ixArea><sArea><![CDATA[Undecided]]></sArea><ixBug>54946</ixBug><ixBugParent>0</ixBugParent><fOpen>false</fOpen><sTitle><![CDATA[Performance change-> Metric filter value setting doesn’t correspond to the applied filter  ]]></sTitle><ixPersonAssignedTo>1</ixPersonAssignedTo><sPersonAssignedTo><![CDATA[CLOSED]]></sPersonAssignedTo><ixPersonOpenedBy>154</ixPersonOpenedBy><ixPersonClosedBy>276</ixPersonClosedBy><ixPersonLastEditedBy>276</ixPersonLastEditedBy><ixStatus>3</ixStatus><sStatus><![CDATA[Closed (Not Reproducible)]]></sStatus><sPriority><![CDATA[Normal]]></sPriority><ixFixFor>1</ixFixFor><sFixFor><![CDATA[Undecided]]></sFixFor><dtFixFor></dtFixFor><hrsCurrEst>0</hrsCurrEst><hrsElapsed>0</hrsElapsed><ixCategory>1</ixCategory><dtOpened>2012-11-09T14:57:32Z</dtOpened><dtResolved>2012-11-13T14:54:20Z</dtResolved><dtClosed>2012-11-13T14:54:20Z</dtClosed><dtDue></dtDue><dtLastView></dtLastView><ixGroup>0</ixGroup><ixBugChildren></ixBugChildren><sCategory><![CDATA[Bug]]></sCategory><ixRelatedBugs></ixRelatedBugs><tags><tag><![CDATA[CMA-Inbox]]></tag></tags><ixRelatedBugs></ixRelatedBugs><plugin_customfields_at_fogcreek_com_rootxcausexmilestonek65></plugin_customfields_at_fogcreek_com_rootxcausexmilestonek65><events><event ixBugEvent="270509" ixBug="54946"><ixBugEvent>270509</ixBugEvent><evt>11</evt><sVerb><![CDATA[Incoming Email]]></sVerb><ixPerson>154</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-11-09T14:57:31Z</dt><s><![CDATA[From: "J, Prakash" <JP@advisory.com>Date: Fri, 9 Nov 2012 09:50:08 -0500To: "Crimson Market Advantage Cases" <CMA-cases@advisory.com>Cc: Subject: Performance change-> Metric filter value setting doesn’t correspond to the applied filter  REPORTED BY: Jai Prakash
+
+ 
+
+DESCRIPTION OF ISSUE:  Performance change-> Metric filter value setting doesn’t correspond to the applied filter  
+
+ 
+
+STEPS TO REPRODUCE :
+
+ 
+
+1.       Opportunities-> Performance change->Physicians-> set the page filter by keeping the metric as volume (Keep other filters as it is) and apply it
+
+2.       Then rest the filter
+
+3.       Now apply the saved filter, the result seen is corresponding to the volume but the metric text box still points the “Revenue”
+
+ 
+
+NOTE: So that, the volume result seen with the “$”(dollar) symbol. Please refer the screen shot
+
+ 
+
+ 
+
+ACTUAL RESULTS VERSUS EXPECTED RESULTS:
+
+ 
+
+Actual Result: Metric symbol doesn’t change to volume
+
+ 
+
+Expected results: Metric symbol should be points the volume
+
+ 
+
+IMPACT OF ISSUE TO DEPLOYMENT OF THE RELEASE:  Medium
+
+ 
+
+BUILD VERSION/SITE URL/DB:
+
+ 
+
+Site: https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4 <https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4>
+
+DB:   Lakelandhealth_Tango
+
+Release:  CMA.2012.09.Tango
+
+Server: 192.168.17.82
+
+BROWSER:  IE8]]></s><fEmail>true</fEmail><fHTML>true</fHTML><fExternal>true</fExternal><sChanges></sChanges><sFormat></sFormat><sFrom><![CDATA["J, Prakash" <JP@advisory.com>]]></sFrom><sTo><![CDATA["Crimson Market Advantage Cases" <CMA-cases@advisory.com>]]></sTo><sCC></sCC><sBCC></sBCC><sReplyTo><![CDATA["J, Prakash" <JP@advisory.com>]]></sReplyTo><sSubject><![CDATA[Performance change-> Metric filter value setting doesn’t correspond to the applied filter  ]]></sSubject><sDate><![CDATA[Fri, 9 Nov 2012 09:50:08 -0500]]></sDate><sMessageId><![CDATA[<567DBAD9C37DE442A8400CD774231E6C3AF5391A@DC-MBOX1.advisory.com>]]></sMessageId><sBodyText><![CDATA[REPORTED BY: Jai Prakash
+
+ 
+
+DESCRIPTION OF ISSUE:  Performance change-> Metric filter value setting doesn’t correspond to the applied filter  
+
+ 
+
+STEPS TO REPRODUCE :
+
+ 
+
+1.       Opportunities-> Performance change->Physicians-> set the page filter by keeping the metric as volume (Keep other filters as it is) and apply it
+
+2.       Then rest the filter
+
+3.       Now apply the saved filter, the result seen is corresponding to the volume but the metric text box still points the “Revenue”
+
+ 
+
+NOTE: So that, the volume result seen with the “$”(dollar) symbol. Please refer the screen shot
+
+ 
+
+ 
+
+ACTUAL RESULTS VERSUS EXPECTED RESULTS:
+
+ 
+
+Actual Result: Metric symbol doesn’t change to volume
+
+ 
+
+Expected results: Metric symbol should be points the volume
+
+ 
+
+IMPACT OF ISSUE TO DEPLOYMENT OF THE RELEASE:  Medium
+
+ 
+
+BUILD VERSION/SITE URL/DB:
+
+ 
+
+Site: https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4 <https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4>
+
+DB:   Lakelandhealth_Tango
+
+Release:  CMA.2012.09.Tango
+
+Server: 192.168.17.82
+
+BROWSER:  IE8]]></sBodyText><sBodyHTML><![CDATA[REPORTED BY: Jai Prakash<br />
+<br />
+&nbsp;<br />
+<br />
+DESCRIPTION OF ISSUE:&nbsp; Performance change-&gt; Metric filter value setting doesn&#8217;t correspond to the applied filter&nbsp; <br />
+<br />
+&nbsp;<br />
+<br />
+STEPS TO REPRODUCE :<br />
+<br />
+&nbsp;<br />
+<br />
+1.&nbsp; &nbsp; &nbsp;&nbsp; Opportunities-&gt; Performance change-&gt;Physicians-&gt; set the page filter by keeping the metric as volume (Keep other filters as it is) and apply it<br />
+<br />
+2.&nbsp; &nbsp; &nbsp;&nbsp; Then rest the filter<br />
+<br />
+3.&nbsp; &nbsp; &nbsp;&nbsp; Now apply the saved filter, the result seen is corresponding to the volume but the metric text box still points the &#8220;Revenue&#8221;<br />
+<br />
+&nbsp;<br />
+<br />
+NOTE: So that, the volume result seen with the &#8220;$&#8221;(dollar) symbol. Please refer the screen shot<br />
+<br />
+&nbsp;<br />
+<br />
+&nbsp;<br />
+<br />
+ACTUAL RESULTS VERSUS EXPECTED RESULTS:<br />
+<br />
+&nbsp;<br />
+<br />
+Actual Result: Metric symbol doesn&#8217;t change to volume<br />
+<br />
+&nbsp;<br />
+<br />
+Expected results: Metric symbol should be points the volume<br />
+<br />
+&nbsp;<br />
+<br />
+IMPACT OF ISSUE TO DEPLOYMENT OF THE RELEASE:&nbsp; Medium<br />
+<br />
+&nbsp;<br />
+<br />
+BUILD VERSION/SITE URL/DB:<br />
+<br />
+&nbsp;<br />
+<br />
+Site: https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4 &lt;https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4&gt;<br />
+<br />
+DB:&nbsp;&nbsp; Lakelandhealth_Tango<br />
+<br />
+Release:&nbsp; CMA.2012.09.Tango<br />
+<br />
+Server: 192.168.17.82<br />
+<br />
+BROWSER:&nbsp; IE8]]></sBodyHTML><rgAttachments><attachment><sFileName><![CDATA[perfrmance change.png]]></sFileName><sURL><![CDATA[default.asp?pg=pgDownload&amp;pgType=pgFile&amp;ixBugEvent=270509&amp;ixAttachment=8967&amp;sFileName=perfrmance%20change.png&sTicket=]]></sURL></attachment></rgAttachments><evtDescription><![CDATA[Incoming email received]]></evtDescription><bEmail>true</bEmail><bExternal>true</bExternal><sPerson><![CDATA[Nick Allen]]></sPerson></event><event ixBugEvent="270510" ixBug="54946"><ixBugEvent>270510</ixBugEvent><evt>13</evt><sVerb><![CDATA[NotSorted]]></sVerb><ixPerson>-1</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-11-09T14:57:32Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>true</fExternal><sChanges><![CDATA[Remains in 'Undecided' area.
+]]></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Email not sorted automatically - training in progress]]></evtDescription><bEmail>false</bEmail><bExternal>true</bExternal><sPerson><![CDATA[FogBugz]]></sPerson><sHtml></sHtml></event><event ixBugEvent="270511" ixBug="54946"><ixBugEvent>270511</ixBugEvent><evt>3</evt><sVerb><![CDATA[Assigned]]></sVerb><ixPerson>-1</ixPerson><ixPersonAssignedTo>154</ixPersonAssignedTo><dt>2012-11-09T14:57:32Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>true</fExternal><sChanges></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Assigned to Nick Allen by FogBugz]]></evtDescription><bEmail>false</bEmail><bExternal>true</bExternal><sPerson><![CDATA[FogBugz]]></sPerson><sHtml></sHtml></event><event ixBugEvent="271821" ixBug="54946"><ixBugEvent>271821</ixBugEvent><evt>14</evt><sVerb><![CDATA[Resolved]]></sVerb><ixPerson>276</ixPerson><ixPersonAssignedTo>154</ixPersonAssignedTo><dt>2012-11-12T21:08:57Z</dt><s><![CDATA[Cannot reproduce with below instructions]]></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges><![CDATA[Category changed from 'Inquiry' to 'Bug'.
+Status changed from 'Active' to 'Resolved (Not Reproducible)'.
+Added tag 'CMA-Inbox'.
+]]></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Resolved (Not Reproducible) and assigned to Nick Allen by Debra Brewer]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Debra Brewer]]></sPerson><sHtml><![CDATA[Cannot reproduce with below instructions]]></sHtml></event><event ixBugEvent="272060" ixBug="54946"><ixBugEvent>272060</ixBugEvent><evt>3</evt><sVerb><![CDATA[Assigned]]></sVerb><ixPerson>276</ixPerson><ixPersonAssignedTo>276</ixPersonAssignedTo><dt>2012-11-13T14:51:49Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Assigned to Debra Brewer by Debra Brewer]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Debra Brewer]]></sPerson><sHtml></sHtml></event><event ixBugEvent="272061" ixBug="54946"><ixBugEvent>272061</ixBugEvent><evt>9</evt><sVerb><![CDATA[Replied]]></sVerb><ixPerson>276</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-11-13T14:54:20Z</dt><s><![CDATA[From: "FogBugz" <cma-cases@advisory.com>Date: Tue, 13 Nov 2012 08:54:20 -06:00To: "J, Prakash" <JP@advisory.com>Cc: Subject: Re: (Case 54946) Performance change-> Metric filter value setting doesn’t correspond to the applied filter  Jai,
+I chose filter settings, applied them and saved that filter.  Then reset the filters and then reloaded the saved filter.  Everything came up as it should.  If I am misunderstanding, please send me instructions on how to recreate this.  I am closing the others as well 'As responded' as please let me know if I need to try something else to reproduce this - debra
+
+-- 
+FogBugz
+cma-cases@advisory.com
+---------------------------------------------------------------------------
+Powered by FogBugz from Fog Creek Software. http://www.fogcreek.com/fogbugz
+
+
+-----Original Message-----
+From: "J, Prakash" <JP@advisory.com>
+Reply-To: "J, Prakash" <JP@advisory.com>
+Date: Fri, 9 Nov 2012 09:50:08 -0500
+To: "Crimson Market Advantage Cases" <CMA-cases@advisory.com>
+Subject: Performance change-> Metric filter value setting doesn’t correspond to the applied filter  
+
+>REPORTED BY: Jai Prakash
+>
+>DESCRIPTION OF ISSUE:  Performance change-> Metric filter value setting doesn’t correspond to the applied filter  
+>
+>STEPS TO REPRODUCE :
+>
+>1.  Opportunities-> Performance change->Physicians-> set the page filter by keeping the metric as volume (Keep other filters as it is) and apply it
+>
+>2.  Then rest the filter
+>
+>3.  Now apply the saved filter, the result seen is corresponding to the volume but the metric text box still points the “Revenue”
+>
+>NOTE: So that, the volume result seen with the “$”(dollar) symbol. Please refer the screen shot
+>
+>ACTUAL RESULTS VERSUS EXPECTED RESULTS:
+>
+>Actual Result: Metric symbol doesn’t change to volume
+>
+>Expected results: Metric symbol should be points the volume
+>
+>IMPACT OF ISSUE TO DEPLOYMENT OF THE RELEASE:  Medium
+>
+>BUILD VERSION/SITE URL/DB:
+>
+>Site: https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4 <https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4>
+>
+>DB:  Lakelandhealth_Tango
+>
+>Release:  CMA.2012.09.Tango
+>
+>Server: 192.168.17.82
+>
+>BROWSER:  IE8]]></s><fEmail>true</fEmail><fHTML>true</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat></sFormat><sFrom><![CDATA["FogBugz" <cma-cases@advisory.com>]]></sFrom><sTo><![CDATA["J, Prakash" <JP@advisory.com>]]></sTo><sCC></sCC><sBCC></sBCC><sReplyTo><![CDATA["FogBugz" <cma-cases@advisory.com>]]></sReplyTo><sSubject><![CDATA[Re: (Case 54946) Performance change-> Metric filter value setting doesn’t correspond to the applied filter  ]]></sSubject><sDate><![CDATA[Tue, 13 Nov 2012 08:54:20 -06:00]]></sDate><sMessageId></sMessageId><sBodyText><![CDATA[Jai,
+I chose filter settings, applied them and saved that filter.  Then reset the filters and then reloaded the saved filter.  Everything came up as it should.  If I am misunderstanding, please send me instructions on how to recreate this.  I am closing the others as well 'As responded' as please let me know if I need to try something else to reproduce this - debra
+
+-- 
+FogBugz
+cma-cases@advisory.com
+---------------------------------------------------------------------------
+Powered by FogBugz from Fog Creek Software. http://www.fogcreek.com/fogbugz
+
+
+-----Original Message-----
+From: "J, Prakash" <JP@advisory.com>
+Reply-To: "J, Prakash" <JP@advisory.com>
+Date: Fri, 9 Nov 2012 09:50:08 -0500
+To: "Crimson Market Advantage Cases" <CMA-cases@advisory.com>
+Subject: Performance change-> Metric filter value setting doesn’t correspond to the applied filter  
+
+>REPORTED BY: Jai Prakash
+>
+>DESCRIPTION OF ISSUE:  Performance change-> Metric filter value setting doesn’t correspond to the applied filter  
+>
+>STEPS TO REPRODUCE :
+>
+>1.  Opportunities-> Performance change->Physicians-> set the page filter by keeping the metric as volume (Keep other filters as it is) and apply it
+>
+>2.  Then rest the filter
+>
+>3.  Now apply the saved filter, the result seen is corresponding to the volume but the metric text box still points the “Revenue”
+>
+>NOTE: So that, the volume result seen with the “$”(dollar) symbol. Please refer the screen shot
+>
+>ACTUAL RESULTS VERSUS EXPECTED RESULTS:
+>
+>Actual Result: Metric symbol doesn’t change to volume
+>
+>Expected results: Metric symbol should be points the volume
+>
+>IMPACT OF ISSUE TO DEPLOYMENT OF THE RELEASE:  Medium
+>
+>BUILD VERSION/SITE URL/DB:
+>
+>Site: https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4 <https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4>
+>
+>DB:  Lakelandhealth_Tango
+>
+>Release:  CMA.2012.09.Tango
+>
+>Server: 192.168.17.82
+>
+>BROWSER:  IE8]]></sBodyText><sBodyHTML><![CDATA[Jai,<br />
+I chose filter settings, applied them and saved that filter.&nbsp; Then reset the filters and then reloaded the saved filter.&nbsp; Everything came up as it should.&nbsp; If I am misunderstanding, please send me instructions on how to recreate this.&nbsp; I am closing the others as well 'As responded' as please let me know if I need to try something else to reproduce this - debra<br />
+<br />
+-- <br />
+FogBugz<br />
+cma-cases@advisory.com<br />
+---------------------------------------------------------------------------<br />
+Powered by FogBugz from Fog Creek Software. http://www.fogcreek.com/fogbugz<br />
+<br />
+<br />
+-----Original Message-----<br />
+From: &quot;J, Prakash&quot; &lt;JP@advisory.com&gt;<br />
+Reply-To: &quot;J, Prakash&quot; &lt;JP@advisory.com&gt;<br />
+Date: Fri, 9 Nov 2012 09:50:08 -0500<br />
+To: &quot;Crimson Market Advantage Cases&quot; &lt;CMA-cases@advisory.com&gt;<br />
+Subject: Performance change-&gt; Metric filter value setting doesn&#8217;t correspond to the applied filter&nbsp; <br />
+<br />
+&gt;REPORTED BY: Jai Prakash<br />
+&gt;<br />
+&gt;DESCRIPTION OF ISSUE:&nbsp; Performance change-&gt; Metric filter value setting doesn&#8217;t correspond to the applied filter&nbsp; <br />
+&gt;<br />
+&gt;STEPS TO REPRODUCE :<br />
+&gt;<br />
+&gt;1.&nbsp; Opportunities-&gt; Performance change-&gt;Physicians-&gt; set the page filter by keeping the metric as volume (Keep other filters as it is) and apply it<br />
+&gt;<br />
+&gt;2.&nbsp; Then rest the filter<br />
+&gt;<br />
+&gt;3.&nbsp; Now apply the saved filter, the result seen is corresponding to the volume but the metric text box still points the &#8220;Revenue&#8221;<br />
+&gt;<br />
+&gt;NOTE: So that, the volume result seen with the &#8220;$&#8221;(dollar) symbol. Please refer the screen shot<br />
+&gt;<br />
+&gt;ACTUAL RESULTS VERSUS EXPECTED RESULTS:<br />
+&gt;<br />
+&gt;Actual Result: Metric symbol doesn&#8217;t change to volume<br />
+&gt;<br />
+&gt;Expected results: Metric symbol should be points the volume<br />
+&gt;<br />
+&gt;IMPACT OF ISSUE TO DEPLOYMENT OF THE RELEASE:&nbsp; Medium<br />
+&gt;<br />
+&gt;BUILD VERSION/SITE URL/DB:<br />
+&gt;<br />
+&gt;Site: https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4 &lt;https://cmastg.crimsonservices.com/Lakelandhealth_Tango/Profiles/Facilities/Utilization/4&gt;<br />
+&gt;<br />
+&gt;DB:&nbsp; Lakelandhealth_Tango<br />
+&gt;<br />
+&gt;Release:&nbsp; CMA.2012.09.Tango<br />
+&gt;<br />
+&gt;Server: 192.168.17.82<br />
+&gt;<br />
+&gt;BROWSER:&nbsp; IE8]]></sBodyHTML><rgAttachments></rgAttachments><evtDescription><![CDATA[Replied by Debra Brewer]]></evtDescription><bEmail>true</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Debra Brewer]]></sPerson></event><event ixBugEvent="272062" ixBug="54946"><ixBugEvent>272062</ixBugEvent><evt>14</evt><sVerb><![CDATA[Resolved]]></sVerb><ixPerson>276</ixPerson><ixPersonAssignedTo>276</ixPersonAssignedTo><dt>2012-11-13T14:54:20Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Resolved (Not Reproducible) and assigned to Debra Brewer by Debra Brewer]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Debra Brewer]]></sPerson><sHtml></sHtml></event><event ixBugEvent="272063" ixBug="54946"><ixBugEvent>272063</ixBugEvent><evt>6</evt><sVerb><![CDATA[Closed]]></sVerb><ixPerson>276</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-11-13T14:54:20Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Closed by Debra Brewer]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Debra Brewer]]></sPerson><sHtml></sHtml></event></events></case><case ixBug="47046" operations="edit,reopen,email,remind"><sLatestTextSummary><![CDATA[TEST - You can delete]]></sLatestTextSummary><sProject><![CDATA[CMA-Inbox]]></sProject><ixProject>22</ixProject><ixArea>138</ixArea><sArea><![CDATA[All Defects]]></sArea><ixBug>47046</ixBug><ixBugParent>0</ixBugParent><fOpen>false</fOpen><sTitle><![CDATA[TEST - You can delete]]></sTitle><ixPersonAssignedTo>1</ixPersonAssignedTo><sPersonAssignedTo><![CDATA[CLOSED]]></sPersonAssignedTo><ixPersonOpenedBy>237</ixPersonOpenedBy><ixPersonClosedBy>154</ixPersonClosedBy><ixPersonLastEditedBy>154</ixPersonLastEditedBy><ixStatus>6</ixStatus><sStatus><![CDATA[Closed (Won't Fix)]]></sStatus><sPriority><![CDATA[Normal]]></sPriority><ixFixFor>1</ixFixFor><sFixFor><![CDATA[Undecided]]></sFixFor><dtFixFor></dtFixFor><hrsCurrEst>0</hrsCurrEst><hrsElapsed>0</hrsElapsed><ixCategory>1</ixCategory><dtOpened>2012-08-15T16:45:23Z</dtOpened><dtResolved>2012-08-16T15:56:25Z</dtResolved><dtClosed>2012-08-16T15:56:32Z</dtClosed><dtDue></dtDue><dtLastView></dtLastView><ixGroup>0</ixGroup><ixBugChildren></ixBugChildren><sCategory><![CDATA[Bug]]></sCategory><ixRelatedBugs></ixRelatedBugs><tags></tags><ixRelatedBugs></ixRelatedBugs><plugin_customfields_at_fogcreek_com_rootxcausexmilestonek65></plugin_customfields_at_fogcreek_com_rootxcausexmilestonek65><events><event ixBugEvent="193029" ixBug="47046"><ixBugEvent>193029</ixBugEvent><evt>1</evt><sVerb><![CDATA[Opened]]></sVerb><ixPerson>237</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-08-15T16:45:23Z</dt><s><![CDATA[TEST - You can delete]]></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Opened by Scott Urbach (SVCS) (2)]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Scott Urbach (SVCS) (2)]]></sPerson><sHtml><![CDATA[TEST - You can delete]]></sHtml></event><event ixBugEvent="193030" ixBug="47046"><ixBugEvent>193030</ixBugEvent><evt>3</evt><sVerb><![CDATA[Assigned]]></sVerb><ixPerson>237</ixPerson><ixPersonAssignedTo>154</ixPersonAssignedTo><dt>2012-08-15T16:45:23Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Assigned to Nick Allen by Scott Urbach (SVCS) (2)]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Scott Urbach (SVCS) (2)]]></sPerson><sHtml></sHtml></event><event ixBugEvent="193854" ixBug="47046"><ixBugEvent>193854</ixBugEvent><evt>14</evt><sVerb><![CDATA[Resolved]]></sVerb><ixPerson>154</ixPerson><ixPersonAssignedTo>237</ixPersonAssignedTo><dt>2012-08-16T15:56:25Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges><![CDATA[Status changed from 'New' to 'Resolved (Won't Fix)'.
+]]></sChanges><sFormat><![CDATA[html]]></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Resolved (Won't Fix) and assigned to Scott Urbach (SVCS) (2) by Nick Allen]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Nick Allen]]></sPerson><sHtml></sHtml></event><event ixBugEvent="193856" ixBug="47046"><ixBugEvent>193856</ixBugEvent><evt>6</evt><sVerb><![CDATA[Closed]]></sVerb><ixPerson>154</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-08-16T15:56:32Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat><![CDATA[html]]></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Closed by Nick Allen]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Nick Allen]]></sPerson><sHtml></sHtml></event></events></case><case ixBug="41627" operations="edit,reopen,email,remind"><sLatestTextSummary><![CDATA[This is a duplicate of case 36854]]></sLatestTextSummary><sProject><![CDATA[CMA-Inbox]]></sProject><ixProject>22</ixProject><ixArea>138</ixArea><sArea><![CDATA[All Defects]]></sArea><ixBug>41627</ixBug><ixBugParent>0</ixBugParent><fOpen>false</fOpen><sTitle><![CDATA[Market Leakage > Service Lines tab:  Needs Optimization]]></sTitle><ixPersonAssignedTo>1</ixPersonAssignedTo><sPersonAssignedTo><![CDATA[CLOSED]]></sPersonAssignedTo><ixPersonOpenedBy>237</ixPersonOpenedBy><ixPersonClosedBy>154</ixPersonClosedBy><ixPersonLastEditedBy>154</ixPersonLastEditedBy><ixStatus>4</ixStatus><sStatus><![CDATA[Closed (Duplicate)]]></sStatus><sPriority><![CDATA[Normal]]></sPriority><ixFixFor>1</ixFixFor><sFixFor><![CDATA[Undecided]]></sFixFor><dtFixFor></dtFixFor><hrsCurrEst>0</hrsCurrEst><hrsElapsed>0</hrsElapsed><ixCategory>1</ixCategory><dtOpened>2012-06-27T16:07:25Z</dtOpened><dtResolved>2012-06-27T18:56:38Z</dtResolved><dtClosed>2012-06-27T18:56:48Z</dtClosed><dtDue></dtDue><dtLastView></dtLastView><ixGroup>0</ixGroup><ixBugChildren></ixBugChildren><sCategory><![CDATA[Bug]]></sCategory><ixRelatedBugs>36854</ixRelatedBugs><tags><tag><![CDATA[CMA-Inbox]]></tag></tags><ixRelatedBugs>36854</ixRelatedBugs><plugin_customfields_at_fogcreek_com_rootxcausexmilestonek65></plugin_customfields_at_fogcreek_com_rootxcausexmilestonek65><events><event ixBugEvent="144843" ixBug="41627"><ixBugEvent>144843</ixBugEvent><evt>1</evt><sVerb><![CDATA[Opened]]></sVerb><ixPerson>237</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-06-27T16:07:25Z</dt><s><![CDATA[Market Leakage > Service Lines tab
+
+The query that populates this tab needs to be optimized.  It often takes a really long time to load, and frequently times out.  An example site is:
+
+https://cma.crimsonservices.com/MountainStatesMarketAdvantage/Login.aspx
+login: urbachs
+pw: butt.it
+
+Thanks,
+
+Scott]]></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Opened by Scott Urbach (SVCS) (2)]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Scott Urbach (SVCS) (2)]]></sPerson><sHtml><![CDATA[Market Leakage &gt; Service Lines tab<br /><br />The query that populates this tab needs to be optimized.&nbsp; It often takes a really long time to load, and frequently times out.&nbsp; An example site is:<br /><br />https://cma.crimsonservices.com/MountainStatesMarketAdvantage/Login.aspx<br />login: urbachs<br />pw: butt.it<br /><br />Thanks,<br /><br />Scott]]></sHtml></event><event ixBugEvent="144844" ixBug="41627"><ixBugEvent>144844</ixBugEvent><evt>3</evt><sVerb><![CDATA[Assigned]]></sVerb><ixPerson>237</ixPerson><ixPersonAssignedTo>154</ixPersonAssignedTo><dt>2012-06-27T16:07:25Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Assigned to Nick Allen by Scott Urbach (SVCS) (2)]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Scott Urbach (SVCS) (2)]]></sPerson><sHtml></sHtml></event><event ixBugEvent="145455" ixBug="41627"><ixBugEvent>145455</ixBugEvent><evt>14</evt><sVerb><![CDATA[Resolved]]></sVerb><ixPerson>154</ixPerson><ixPersonAssignedTo>237</ixPersonAssignedTo><dt>2012-06-27T18:56:38Z</dt><s><![CDATA[This is a duplicate of case 36854]]></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges><![CDATA[Status changed from 'New' to 'Resolved (Duplicate)'.
+Duplicate of changed from (None) to Case 36854.
+Added tag 'CMA-Inbox'.
+]]></sChanges><sFormat><![CDATA[html]]></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Resolved (Duplicate) and assigned to Scott Urbach (SVCS) (2) by Nick Allen]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Nick Allen]]></sPerson><sHtml><![CDATA[<p>
+	This is a duplicate of case 36854</p>
+]]></sHtml></event><event ixBugEvent="145456" ixBug="41627"><ixBugEvent>145456</ixBugEvent><evt>6</evt><sVerb><![CDATA[Closed]]></sVerb><ixPerson>154</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-06-27T18:56:48Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat><![CDATA[html]]></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Closed by Nick Allen]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Nick Allen]]></sPerson><sHtml></sHtml></event></events></case><case ixBug="33910" operations="edit,reopen,email,remind"><sLatestTextSummary><![CDATA[[Mass Edit] We will be tracking these issues via their development tickets and not through these tickets.  I am closing all of them as a result.]]></sLatestTextSummary><sProject><![CDATA[CMA-Inbox]]></sProject><ixProject>22</ixProject><ixArea>49</ixArea><sArea><![CDATA[Misc]]></sArea><ixBug>33910</ixBug><ixBugParent>0</ixBugParent><fOpen>false</fOpen><sTitle><![CDATA[LoadErrorMessage Reset On Load]]></sTitle><ixPersonAssignedTo>1</ixPersonAssignedTo><sPersonAssignedTo><![CDATA[CLOSED]]></sPersonAssignedTo><ixPersonOpenedBy>258</ixPersonOpenedBy><ixPersonClosedBy>154</ixPersonClosedBy><ixPersonLastEditedBy>154</ixPersonLastEditedBy><ixStatus>31</ixStatus><sStatus><![CDATA[Closed (Needs Review)]]></sStatus><sPriority><![CDATA[High]]></sPriority><ixFixFor>1</ixFixFor><sFixFor><![CDATA[Undecided]]></sFixFor><dtFixFor></dtFixFor><hrsCurrEst>0</hrsCurrEst><hrsElapsed>0</hrsElapsed><ixCategory>1</ixCategory><dtOpened>2012-04-25T16:44:11Z</dtOpened><dtResolved>2012-06-08T21:46:04Z</dtResolved><dtClosed>2012-06-08T21:46:38Z</dtClosed><dtDue></dtDue><dtLastView></dtLastView><ixGroup>0</ixGroup><ixBugChildren></ixBugChildren><sCategory><![CDATA[Bug]]></sCategory><ixRelatedBugs>34135</ixRelatedBugs><tags><tag><![CDATA[Verified]]></tag></tags><ixRelatedBugs>34135</ixRelatedBugs><plugin_customfields_at_fogcreek_com_rootxcausexmilestonek65></plugin_customfields_at_fogcreek_com_rootxcausexmilestonek65><events><event ixBugEvent="71070" ixBug="33910"><ixBugEvent>71070</ixBugEvent><evt>1</evt><sVerb><![CDATA[Opened]]></sVerb><ixPerson>258</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-04-25T16:44:11Z</dt><s><![CDATA[Load Error Messages in the temp tables are not reset prior to running loaders.  For example temp_salesrecords should have it's loaderrormessages reset in LoadSalesrecords prior to actually updating Salesrecords.  This would ensure that records tied to physicians who just showed up in the roster are retroactively loaded.
+]]></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Opened by Andy Cavender (SVCS)]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Andy Cavender (SVCS)]]></sPerson><sHtml><![CDATA[Load Error Messages in the temp tables are not reset prior to running loaders.&nbsp; For example temp_salesrecords should have it's loaderrormessages reset in LoadSalesrecords prior to actually updating Salesrecords.&nbsp; This would ensure that records tied to physicians who just showed up in the roster are retroactively loaded.<br />]]></sHtml></event><event ixBugEvent="71071" ixBug="33910"><ixBugEvent>71071</ixBugEvent><evt>3</evt><sVerb><![CDATA[Assigned]]></sVerb><ixPerson>258</ixPerson><ixPersonAssignedTo>25</ixPersonAssignedTo><dt>2012-04-25T16:44:11Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges><![CDATA[Notified Rangavittal Srinivas (SVCS).
+]]></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Assigned to Beemer Wong by Andy Cavender (SVCS)]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Andy Cavender (SVCS)]]></sPerson><sHtml></sHtml></event><event ixBugEvent="72955" ixBug="33910"><ixBugEvent>72955</ixBugEvent><evt>2</evt><sVerb><![CDATA[Edited]]></sVerb><ixPerson>154</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-04-26T20:16:40Z</dt><s><![CDATA[Created case 34135 to track this issue]]></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges><![CDATA[Added tag 'Verified'.
+]]></sChanges><sFormat><![CDATA[html]]></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Edited by Nick Allen]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Nick Allen]]></sPerson><sHtml><![CDATA[<p>
+	Created case 34135 to track this issue</p>
+]]></sHtml></event><event ixBugEvent="96572" ixBug="33910"><ixBugEvent>96572</ixBugEvent><evt>2</evt><sVerb><![CDATA[Edited]]></sVerb><ixPerson>154</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-05-16T21:07:25Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges><![CDATA[Added tag 'CMA-Inbox'.
+]]></sChanges><sFormat><![CDATA[html]]></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Edited by Nick Allen]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Nick Allen]]></sPerson><sHtml></sHtml></event><event ixBugEvent="101894" ixBug="33910"><ixBugEvent>101894</ixBugEvent><evt>2</evt><sVerb><![CDATA[Edited]]></sVerb><ixPerson>154</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-05-21T19:45:27Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges><![CDATA[Removed tag 'CMA-Inbox'.
+]]></sChanges><sFormat><![CDATA[html]]></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Edited by Nick Allen]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Nick Allen]]></sPerson><sHtml></sHtml></event><event ixBugEvent="123820" ixBug="33910"><ixBugEvent>123820</ixBugEvent><evt>14</evt><sVerb><![CDATA[Resolved]]></sVerb><ixPerson>154</ixPerson><ixPersonAssignedTo>258</ixPersonAssignedTo><dt>2012-06-08T21:46:04Z</dt><s><![CDATA[[Mass Edit] We will be tracking these issues via their development tickets and not through these tickets.  I am closing all of them as a result.]]></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges><![CDATA[Status changed from 'New' to 'Resolved (Needs Review)'.
+]]></sChanges><sFormat><![CDATA[html]]></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Resolved (Needs Review) and assigned to Andy Cavender (SVCS) by Nick Allen]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Nick Allen]]></sPerson><sHtml><![CDATA[<p>
+	[Mass Edit] We will be tracking these issues via their development tickets and not through these tickets. &nbsp;I am closing all of them as a result.</p>
+]]></sHtml></event><event ixBugEvent="123874" ixBug="33910"><ixBugEvent>123874</ixBugEvent><evt>6</evt><sVerb><![CDATA[Closed]]></sVerb><ixPerson>154</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-06-08T21:46:38Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat><![CDATA[html]]></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Closed by Nick Allen]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Nick Allen]]></sPerson><sHtml></sHtml></event></events></case><case ixBug="33067" operations="edit,reopen,email,remind"><sLatestTextSummary><![CDATA[[Mass Edit] We will be tracking these issues via their development tickets and not through these tickets.  I am closing all of them as a result.]]></sLatestTextSummary><sProject><![CDATA[CMA-Inbox]]></sProject><ixProject>22</ixProject><ixArea>138</ixArea><sArea><![CDATA[All Defects]]></sArea><ixBug>33067</ixBug><ixBugParent>0</ixBugParent><fOpen>false</fOpen><sTitle><![CDATA[Degree/Title and State fields in Demographics:  All Caps]]></sTitle><ixPersonAssignedTo>1</ixPersonAssignedTo><sPersonAssignedTo><![CDATA[CLOSED]]></sPersonAssignedTo><ixPersonOpenedBy>256</ixPersonOpenedBy><ixPersonClosedBy>154</ixPersonClosedBy><ixPersonLastEditedBy>154</ixPersonLastEditedBy><ixStatus>6</ixStatus><sStatus><![CDATA[Closed (Won't Fix)]]></sStatus><sPriority><![CDATA[Normal]]></sPriority><ixFixFor>1</ixFixFor><sFixFor><![CDATA[Undecided]]></sFixFor><dtFixFor></dtFixFor><hrsCurrEst>0</hrsCurrEst><hrsElapsed>0</hrsElapsed><ixCategory>1</ixCategory><dtOpened>2012-04-18T23:18:30Z</dtOpened><dtResolved>2012-06-08T21:46:03Z</dtResolved><dtClosed>2012-06-08T21:46:36Z</dtClosed><dtDue></dtDue><dtLastView></dtLastView><ixGroup>0</ixGroup><ixBugChildren></ixBugChildren><sCategory><![CDATA[Bug]]></sCategory><ixRelatedBugs>33170,33067</ixRelatedBugs><tags><tag><![CDATA[Verified]]></tag></tags><ixRelatedBugs>33170,33067</ixRelatedBugs><plugin_customfields_at_fogcreek_com_rootxcausexmilestonek65></plugin_customfields_at_fogcreek_com_rootxcausexmilestonek65><events><event ixBugEvent="64053" ixBug="33067"><ixBugEvent>64053</ixBugEvent><evt>1</evt><sVerb><![CDATA[Opened]]></sVerb><ixPerson>256</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-04-18T23:18:30Z</dt><s><![CDATA[Degree/Title and State fields in Demographics should always be all caps.  This should be a fix on the Loader level.]]></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Opened by Reagan Dooley (SVCS)]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Reagan Dooley (SVCS)]]></sPerson><sHtml><![CDATA[Degree/Title and State fields in Demographics should always be all caps.&nbsp; This should be a fix on the Loader level.]]></sHtml></event><event ixBugEvent="64054" ixBug="33067"><ixBugEvent>64054</ixBugEvent><evt>3</evt><sVerb><![CDATA[Assigned]]></sVerb><ixPerson>256</ixPerson><ixPersonAssignedTo>154</ixPersonAssignedTo><dt>2012-04-18T23:18:30Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges><![CDATA[Notified Scott Urbach.
+]]></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Assigned to Nick Allen by Reagan Dooley (SVCS)]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Reagan Dooley (SVCS)]]></sPerson><sHtml></sHtml></event><event ixBugEvent="65041" ixBug="33067"><ixBugEvent>65041</ixBugEvent><evt>2</evt><sVerb><![CDATA[Edited]]></sVerb><ixPerson>154</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-04-19T19:50:48Z</dt><s><![CDATA[Created case 33170 to track this]]></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges><![CDATA[Added tag 'Verified'.
+]]></sChanges><sFormat><![CDATA[html]]></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Edited by Nick Allen]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Nick Allen]]></sPerson><sHtml><![CDATA[<p>
+	Created case 33170 to track this</p>
+]]></sHtml></event><event ixBugEvent="72656" ixBug="33067"><ixBugEvent>72656</ixBugEvent><evt>14</evt><sVerb><![CDATA[Resolved]]></sVerb><ixPerson>307</ixPerson><ixPersonAssignedTo>256</ixPersonAssignedTo><dt>2012-04-26T16:36:56Z</dt><s><![CDATA[looks like this is not a bug after talking with Reagan]]></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges><![CDATA[Status changed from 'New' to 'Resolved (Won't Fix)'.
+]]></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Resolved (Won't Fix) and assigned to Reagan Dooley (SVCS) by Benjamin McKenzie]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Benjamin McKenzie]]></sPerson><sHtml><![CDATA[looks like this is not a bug after talking with Reagan]]></sHtml></event><event ixBugEvent="96556" ixBug="33067"><ixBugEvent>96556</ixBugEvent><evt>2</evt><sVerb><![CDATA[Edited]]></sVerb><ixPerson>154</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-05-16T21:07:23Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges><![CDATA[Added tag 'CMA-Inbox'.
+]]></sChanges><sFormat><![CDATA[html]]></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Edited by Nick Allen]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Nick Allen]]></sPerson><sHtml></sHtml></event><event ixBugEvent="101878" ixBug="33067"><ixBugEvent>101878</ixBugEvent><evt>2</evt><sVerb><![CDATA[Edited]]></sVerb><ixPerson>154</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-05-21T19:45:26Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges><![CDATA[Removed tag 'CMA-Inbox'.
+]]></sChanges><sFormat><![CDATA[html]]></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Edited by Nick Allen]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Nick Allen]]></sPerson><sHtml></sHtml></event><event ixBugEvent="123804" ixBug="33067"><ixBugEvent>123804</ixBugEvent><evt>14</evt><sVerb><![CDATA[Resolved]]></sVerb><ixPerson>154</ixPerson><ixPersonAssignedTo>256</ixPersonAssignedTo><dt>2012-06-08T21:46:03Z</dt><s><![CDATA[[Mass Edit] We will be tracking these issues via their development tickets and not through these tickets.  I am closing all of them as a result.]]></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat><![CDATA[html]]></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Resolved (Won't Fix) and assigned to Reagan Dooley (SVCS) by Nick Allen]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Nick Allen]]></sPerson><sHtml><![CDATA[<p>
+	[Mass Edit] We will be tracking these issues via their development tickets and not through these tickets. &nbsp;I am closing all of them as a result.</p>
+]]></sHtml></event><event ixBugEvent="123858" ixBug="33067"><ixBugEvent>123858</ixBugEvent><evt>6</evt><sVerb><![CDATA[Closed]]></sVerb><ixPerson>154</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-06-08T21:46:36Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat><![CDATA[html]]></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Closed by Nick Allen]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Nick Allen]]></sPerson><sHtml></sHtml></event></events></case><case ixBug="32189" operations="edit,reopen,email,remind"><sLatestTextSummary><![CDATA[[Mass Edit] We will be tracking these issues via their development tickets and not through these tickets.  I am closing all of them as a result.]]></sLatestTextSummary><sProject><![CDATA[CMA-Inbox]]></sProject><ixProject>22</ixProject><ixArea>138</ixArea><sArea><![CDATA[All Defects]]></sArea><ixBug>32189</ixBug><ixBugParent>0</ixBugParent><fOpen>false</fOpen><sTitle><![CDATA[CMA Loader Problem:  LoadZips]]></sTitle><ixPersonAssignedTo>1</ixPersonAssignedTo><sPersonAssignedTo><![CDATA[CLOSED]]></sPersonAssignedTo><ixPersonOpenedBy>256</ixPersonOpenedBy><ixPersonClosedBy>154</ixPersonClosedBy><ixPersonLastEditedBy>154</ixPersonLastEditedBy><ixStatus>31</ixStatus><sStatus><![CDATA[Closed (Needs Review)]]></sStatus><sPriority><![CDATA[Normal]]></sPriority><ixFixFor>1</ixFixFor><sFixFor><![CDATA[Undecided]]></sFixFor><dtFixFor></dtFixFor><hrsCurrEst>0</hrsCurrEst><hrsElapsed>0</hrsElapsed><ixCategory>1</ixCategory><dtOpened>2012-04-10T18:31:12Z</dtOpened><dtResolved>2012-06-08T21:46:02Z</dtResolved><dtClosed>2012-06-08T21:46:36Z</dtClosed><dtDue></dtDue><dtLastView></dtLastView><ixGroup>0</ixGroup><ixBugChildren></ixBugChildren><sCategory><![CDATA[Bug]]></sCategory><ixRelatedBugs>32523</ixRelatedBugs><tags><tag><![CDATA[Verified]]></tag></tags><ixRelatedBugs>32523</ixRelatedBugs><plugin_customfields_at_fogcreek_com_rootxcausexmilestonek65></plugin_customfields_at_fogcreek_com_rootxcausexmilestonek65><events><event ixBugEvent="57607" ixBug="32189"><ixBugEvent>57607</ixBugEvent><evt>1</evt><sVerb><![CDATA[Opened]]></sVerb><ixPerson>256</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-04-10T18:31:12Z</dt><s><![CDATA[The LoadZips loader for CMA reads from a static file.  There seems to be a constraint that does not allow multiple loads to read from this file simultaneously.  I received the error message below on a recent load on the LoadZips loader. I re-ran the loader without any problems after receiving this error and making no changes.  As you can see, the error states that the static file is being used by another process.
+
+CMA often runs many loads simultaneously.  I have heard of others running into similar errors.  We need to ensure that multiple loads can run simultaneously without any issues.
+
+
+The Member Loader Command "LoadZips" threw an exception: "System.IO.IOException: The process cannot access the file 'C:\Citadel\Loader\Market Advantage\2012.01\SSISPackages\RawData\temp_ZipBoundaries.csv' because it is being used by another process.     at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)     at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)     at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)     at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)     at Crimson.CMA.Loader.Commands.LoadZips.UnzipCSVFile(FileInfo fi)     at Crimson.CMA.Loader.Commands.LoadZips.Execute()     at Crimson.CMA.Loader.Commands.MemberLoaderCommand.RunLoad()" ;]]></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Opened by Reagan Dooley (SVCS)]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Reagan Dooley (SVCS)]]></sPerson><sHtml><![CDATA[The LoadZips loader for CMA reads from a static file.&nbsp; There seems to be a constraint that does not allow multiple loads to read from this file simultaneously.&nbsp; I received the error message below on a recent load on the LoadZips loader. I re-ran the loader without any problems after receiving this error and making no changes.&nbsp; As you can see, the error states that the static file is being used by another process.<br /><br />CMA often runs many loads simultaneously.&nbsp; I have heard of others running into similar errors.&nbsp; We need to ensure that multiple loads can run simultaneously without any issues.<br /><br /><br />The Member Loader Command &quot;LoadZips&quot; threw an exception: &quot;System.IO.IOException: The process cannot access the file 'C:\Citadel\Loader\Market Advantage\2012.01\SSISPackages\RawData\temp_ZipBoundaries.csv' because it is being used by another process.&nbsp; &nbsp;  at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)&nbsp; &nbsp;  at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)&nbsp; &nbsp;  at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)&nbsp; &nbsp;  at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)&nbsp; &nbsp;  at Crimson.CMA.Loader.Commands.LoadZips.UnzipCSVFile(FileInfo fi)&nbsp; &nbsp;  at Crimson.CMA.Loader.Commands.LoadZips.Execute()&nbsp; &nbsp;  at Crimson.CMA.Loader.Commands.MemberLoaderCommand.RunLoad()&quot; ;]]></sHtml></event><event ixBugEvent="57608" ixBug="32189"><ixBugEvent>57608</ixBugEvent><evt>3</evt><sVerb><![CDATA[Assigned]]></sVerb><ixPerson>256</ixPerson><ixPersonAssignedTo>154</ixPersonAssignedTo><dt>2012-04-10T18:31:12Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges><![CDATA[Notified Scott Urbach.
+]]></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Assigned to Nick Allen by Reagan Dooley (SVCS)]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Reagan Dooley (SVCS)]]></sPerson><sHtml></sHtml></event><event ixBugEvent="59873" ixBug="32189"><ixBugEvent>59873</ixBugEvent><evt>2</evt><sVerb><![CDATA[Edited]]></sVerb><ixPerson>154</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-04-12T21:31:13Z</dt><s><![CDATA[Created case 32523 to track this]]></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat><![CDATA[html]]></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Edited by Nick Allen]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Nick Allen]]></sPerson><sHtml><![CDATA[<p>
+	Created case 32523 to track this</p>
+]]></sHtml></event><event ixBugEvent="59875" ixBug="32189"><ixBugEvent>59875</ixBugEvent><evt>2</evt><sVerb><![CDATA[Edited]]></sVerb><ixPerson>154</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-04-12T21:31:26Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges><![CDATA[Revised Nick Allen's entry from 4/12/2012 at 9:31 PM UTC
+]]></sChanges><sFormat><![CDATA[html]]></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Edited by Nick Allen]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Nick Allen]]></sPerson><sHtml></sHtml></event><event ixBugEvent="59881" ixBug="32189"><ixBugEvent>59881</ixBugEvent><evt>2</evt><sVerb><![CDATA[Edited]]></sVerb><ixPerson>154</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-04-12T21:34:38Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges><![CDATA[Added tag 'Verified'.
+]]></sChanges><sFormat><![CDATA[html]]></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Edited by Nick Allen]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Nick Allen]]></sPerson><sHtml></sHtml></event><event ixBugEvent="96550" ixBug="32189"><ixBugEvent>96550</ixBugEvent><evt>2</evt><sVerb><![CDATA[Edited]]></sVerb><ixPerson>154</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-05-16T21:07:23Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges><![CDATA[Added tag 'CMA-Inbox'.
+]]></sChanges><sFormat><![CDATA[html]]></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Edited by Nick Allen]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Nick Allen]]></sPerson><sHtml></sHtml></event><event ixBugEvent="101872" ixBug="32189"><ixBugEvent>101872</ixBugEvent><evt>2</evt><sVerb><![CDATA[Edited]]></sVerb><ixPerson>154</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-05-21T19:45:25Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges><![CDATA[Removed tag 'CMA-Inbox'.
+]]></sChanges><sFormat><![CDATA[html]]></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Edited by Nick Allen]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Nick Allen]]></sPerson><sHtml></sHtml></event><event ixBugEvent="123798" ixBug="32189"><ixBugEvent>123798</ixBugEvent><evt>14</evt><sVerb><![CDATA[Resolved]]></sVerb><ixPerson>154</ixPerson><ixPersonAssignedTo>256</ixPersonAssignedTo><dt>2012-06-08T21:46:02Z</dt><s><![CDATA[[Mass Edit] We will be tracking these issues via their development tickets and not through these tickets.  I am closing all of them as a result.]]></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges><![CDATA[Status changed from 'New' to 'Resolved (Needs Review)'.
+]]></sChanges><sFormat><![CDATA[html]]></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Resolved (Needs Review) and assigned to Reagan Dooley (SVCS) by Nick Allen]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Nick Allen]]></sPerson><sHtml><![CDATA[<p>
+	[Mass Edit] We will be tracking these issues via their development tickets and not through these tickets. &nbsp;I am closing all of them as a result.</p>
+]]></sHtml></event><event ixBugEvent="123852" ixBug="32189"><ixBugEvent>123852</ixBugEvent><evt>6</evt><sVerb><![CDATA[Closed]]></sVerb><ixPerson>154</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-06-08T21:46:36Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat><![CDATA[html]]></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Closed by Nick Allen]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Nick Allen]]></sPerson><sHtml></sHtml></event></events></case><case ixBug="34611" operations="edit,reopen,email,remind"><sLatestTextSummary><![CDATA[Created case 34620 to track this]]></sLatestTextSummary><sProject><![CDATA[CMA-Inbox]]></sProject><ixProject>22</ixProject><ixArea>138</ixArea><sArea><![CDATA[All Defects]]></sArea><ixBug>34611</ixBug><ixBugParent>0</ixBugParent><fOpen>false</fOpen><sTitle><![CDATA[Reconciler Loader Target/Source Operation]]></sTitle><ixPersonAssignedTo>1</ixPersonAssignedTo><sPersonAssignedTo><![CDATA[CLOSED]]></sPersonAssignedTo><ixPersonOpenedBy>258</ixPersonOpenedBy><ixPersonClosedBy>307</ixPersonClosedBy><ixPersonLastEditedBy>307</ixPersonLastEditedBy><ixStatus>2</ixStatus><sStatus><![CDATA[Closed (Ready for Test)]]></sStatus><sPriority><![CDATA[High]]></sPriority><ixFixFor>1</ixFixFor><sFixFor><![CDATA[Undecided]]></sFixFor><dtFixFor></dtFixFor><hrsCurrEst>0</hrsCurrEst><hrsElapsed>0</hrsElapsed><ixCategory>1</ixCategory><dtOpened>2012-05-01T16:07:30Z</dtOpened><dtResolved>2012-05-07T20:54:14Z</dtResolved><dtClosed>2012-05-07T20:54:21Z</dtClosed><dtDue></dtDue><dtLastView></dtLastView><ixGroup>0</ixGroup><ixBugChildren></ixBugChildren><sCategory><![CDATA[Bug]]></sCategory><ixRelatedBugs>34620</ixRelatedBugs><tags><tag><![CDATA[Verified]]></tag></tags><ixRelatedBugs>34620</ixRelatedBugs><plugin_customfields_at_fogcreek_com_rootxcausexmilestonek65></plugin_customfields_at_fogcreek_com_rootxcausexmilestonek65><events><event ixBugEvent="78422" ixBug="34611"><ixBugEvent>78422</ixBugEvent><evt>1</evt><sVerb><![CDATA[Opened]]></sVerb><ixPerson>258</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-05-01T16:07:30Z</dt><s><![CDATA[Reconciler loader has a key in the loadersettings table called "ReconcilerTargetDB".  I verified in the reconciler loader code that this key operates in an intuitive way.  The loader pulls tables from the db the loader is running on and pushes them to the target DB.  In reality the loader would be run on the DB that is being reconciled (the target DB), so the key and loader should operate by defining the source DB.  The loader should then pull tables from the source DB to the DB the loader is running on.]]></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Opened by Andy Cavender (SVCS)]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Andy Cavender (SVCS)]]></sPerson><sHtml><![CDATA[Reconciler loader has a key in the loadersettings table called &quot;ReconcilerTargetDB&quot;.&nbsp; I verified in the reconciler loader code that this key operates in an intuitive way.&nbsp; The loader pulls tables from the db the loader is running on and pushes them to the target DB.&nbsp; In reality the loader would be run on the DB that is being reconciled (the target DB), so the key and loader should operate by defining the source DB.&nbsp; The loader should then pull tables from the source DB to the DB the loader is running on.]]></sHtml></event><event ixBugEvent="78423" ixBug="34611"><ixBugEvent>78423</ixBugEvent><evt>3</evt><sVerb><![CDATA[Assigned]]></sVerb><ixPerson>258</ixPerson><ixPersonAssignedTo>154</ixPersonAssignedTo><dt>2012-05-01T16:07:30Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges><![CDATA[Notified Rangavittal Srinivas (SVCS), Rebekah Zimmerman (SVCS), Thomas Zavaleta (SVCS).
+]]></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Assigned to Nick Allen by Andy Cavender (SVCS)]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Andy Cavender (SVCS)]]></sPerson><sHtml></sHtml></event><event ixBugEvent="78474" ixBug="34611"><ixBugEvent>78474</ixBugEvent><evt>2</evt><sVerb><![CDATA[Edited]]></sVerb><ixPerson>154</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-05-01T16:25:12Z</dt><s><![CDATA[Created case 34620 to track this]]></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges><![CDATA[Added tag 'Verified'.
+]]></sChanges><sFormat><![CDATA[html]]></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Edited by Nick Allen]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Nick Allen]]></sPerson><sHtml><![CDATA[<p>
+	Created case 34620 to track this</p>
+]]></sHtml></event><event ixBugEvent="78475" ixBug="34611"><ixBugEvent>78475</ixBugEvent><evt>2</evt><sVerb><![CDATA[Edited]]></sVerb><ixPerson>154</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-05-01T16:25:22Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges><![CDATA[Revised Nick Allen's entry from 5/1/2012 at 4:25 PM UTC
+]]></sChanges><sFormat><![CDATA[html]]></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Edited by Nick Allen]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Nick Allen]]></sPerson><sHtml></sHtml></event><event ixBugEvent="85498" ixBug="34611"><ixBugEvent>85498</ixBugEvent><evt>14</evt><sVerb><![CDATA[Resolved]]></sVerb><ixPerson>307</ixPerson><ixPersonAssignedTo>258</ixPersonAssignedTo><dt>2012-05-07T20:54:14Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges><![CDATA[Status changed from 'New' to 'Resolved (Ready for Test)'.
+]]></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Resolved (Ready for Test) and assigned to Andy Cavender (SVCS) by Benjamin McKenzie]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Benjamin McKenzie]]></sPerson><sHtml></sHtml></event><event ixBugEvent="85500" ixBug="34611"><ixBugEvent>85500</ixBugEvent><evt>6</evt><sVerb><![CDATA[Closed]]></sVerb><ixPerson>307</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-05-07T20:54:21Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Closed by Benjamin McKenzie]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Benjamin McKenzie]]></sPerson><sHtml></sHtml></event></events></case><case ixBug="28054" operations="edit,reopen,email,remind"><sLatestTextSummary><![CDATA[This has now been resolved]]></sLatestTextSummary><sProject><![CDATA[CMA-Inbox]]></sProject><ixProject>22</ixProject><ixArea>138</ixArea><sArea><![CDATA[All Defects]]></sArea><ixBug>28054</ixBug><ixBugParent>0</ixBugParent><fOpen>false</fOpen><sTitle><![CDATA[Inconsistent Name Sorting]]></sTitle><ixPersonAssignedTo>1</ixPersonAssignedTo><sPersonAssignedTo><![CDATA[CLOSED]]></sPersonAssignedTo><ixPersonOpenedBy>190</ixPersonOpenedBy><ixPersonClosedBy>154</ixPersonClosedBy><ixPersonLastEditedBy>154</ixPersonLastEditedBy><ixStatus>31</ixStatus><sStatus><![CDATA[Closed (Needs Review)]]></sStatus><sPriority><![CDATA[Normal]]></sPriority><ixFixFor>1</ixFixFor><sFixFor><![CDATA[Undecided]]></sFixFor><dtFixFor></dtFixFor><hrsCurrEst>0</hrsCurrEst><hrsElapsed>0</hrsElapsed><ixCategory>1</ixCategory><dtOpened>2012-02-29T22:24:46Z</dtOpened><dtResolved>2012-04-02T22:21:25Z</dtResolved><dtClosed>2012-04-02T22:21:41Z</dtClosed><dtDue></dtDue><dtLastView></dtLastView><ixGroup>0</ixGroup><ixBugChildren></ixBugChildren><sCategory><![CDATA[Bug]]></sCategory><ixRelatedBugs>28458</ixRelatedBugs><tags><tag><![CDATA[Verified]]></tag></tags><ixRelatedBugs>28458</ixRelatedBugs><plugin_customfields_at_fogcreek_com_rootxcausexmilestonek65></plugin_customfields_at_fogcreek_com_rootxcausexmilestonek65><events><event ixBugEvent="23111" ixBug="28054"><ixBugEvent>23111</ixBugEvent><evt>1</evt><sVerb><![CDATA[Opened]]></sVerb><ixPerson>190</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-02-29T22:24:46Z</dt><s><![CDATA[There is inconsistency in the sorting of names columns between pages.
+
+Market leakage page - sorting by last name (what we want)
+
+Targets page - by first name (this needs to be changed to sort by last name).
+
+Thanks,
+Alykhan]]></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Opened by Alykhan Daya]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Alykhan Daya]]></sPerson><sHtml><![CDATA[There is inconsistency in the sorting of names columns between pages.<br /><br />Market leakage page - sorting by last name (what we want)<br /><br />Targets page - by first name (this needs to be changed to sort by last name).<br /><br />Thanks,<br />Alykhan]]></sHtml></event><event ixBugEvent="23112" ixBug="28054"><ixBugEvent>23112</ixBugEvent><evt>3</evt><sVerb><![CDATA[Assigned]]></sVerb><ixPerson>190</ixPerson><ixPersonAssignedTo>103</ixPersonAssignedTo><dt>2012-02-29T22:24:46Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges><![CDATA[Notified Alex Bilstein.
+]]></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Assigned to Bill Maroon by Alykhan Daya]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Alykhan Daya]]></sPerson><sHtml></sHtml></event><event ixBugEvent="25745" ixBug="28054"><ixBugEvent>25745</ixBugEvent><evt>2</evt><sVerb><![CDATA[Edited]]></sVerb><ixPerson>154</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-03-02T18:09:13Z</dt><s><![CDATA[Created case 28458 to track this issue]]></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat><![CDATA[html]]></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Edited by Nick Allen]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Nick Allen]]></sPerson><sHtml><![CDATA[<p>
+	Created case 28458 to track this issue</p>
+]]></sHtml></event><event ixBugEvent="33306" ixBug="28054"><ixBugEvent>33306</ixBugEvent><evt>2</evt><sVerb><![CDATA[Edited]]></sVerb><ixPerson>106</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-03-12T05:31:58Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges><![CDATA[Added tag 'Verified'.
+]]></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Edited by Mohan Kumar]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Mohan Kumar]]></sPerson><sHtml></sHtml></event><event ixBugEvent="34408" ixBug="28054"><ixBugEvent>34408</ixBugEvent><evt>2</evt><sVerb><![CDATA[Edited]]></sVerb><ixPerson>157</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-03-13T05:28:27Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Edited by Regin Joseph]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Regin Joseph]]></sPerson><sHtml></sHtml></event><event ixBugEvent="51123" ixBug="28054"><ixBugEvent>51123</ixBugEvent><evt>14</evt><sVerb><![CDATA[Resolved]]></sVerb><ixPerson>154</ixPerson><ixPersonAssignedTo>190</ixPersonAssignedTo><dt>2012-04-02T22:21:25Z</dt><s><![CDATA[This has now been resolved]]></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges><![CDATA[Status changed from 'New' to 'Resolved (Needs Review)'.
+]]></sChanges><sFormat><![CDATA[html]]></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Resolved (Needs Review) and assigned to Alykhan Daya by Nick Allen]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Nick Allen]]></sPerson><sHtml><![CDATA[<p>
+	This has now been resolved</p>
+]]></sHtml></event><event ixBugEvent="51127" ixBug="28054"><ixBugEvent>51127</ixBugEvent><evt>6</evt><sVerb><![CDATA[Closed]]></sVerb><ixPerson>154</ixPerson><ixPersonAssignedTo>0</ixPersonAssignedTo><dt>2012-04-02T22:21:41Z</dt><s></s><fEmail>false</fEmail><fHTML>false</fHTML><fExternal>false</fExternal><sChanges></sChanges><sFormat><![CDATA[html]]></sFormat><rgAttachments></rgAttachments><evtDescription><![CDATA[Closed by Nick Allen]]></evtDescription><bEmail>false</bEmail><bExternal>false</bExternal><sPerson><![CDATA[Nick Allen]]></sPerson><sHtml></sHtml></event></events></case></cases></response>

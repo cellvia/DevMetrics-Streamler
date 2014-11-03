@@ -1,0 +1,53 @@
+!!!
+html
+	head
+		meta(charset="utf-8")
+		meta(viewport="width=device-width, initial-scale=1.0")
+		title | FogBugz Reporting
+		link(rel='stylesheet', href='/css/lib/bootstrap.css')
+		link(rel='stylesheet', href='/css/dashboard.css')
+		block css
+	body
+		div.navbar.navbar-inverse.navbar-fixed-top
+			div.navbar-inner
+				div.container
+					div
+						a.btn.btn-navbar(data-toggle="collapse",data-target=".nav-collapse")
+							span.icon-bar
+							span.icon-bar
+							span.icon-bar
+						a.brand(href="/")
+							img(src="/img/abc.png", border="0")
+							span  Dev Metrics
+							
+		div.container
+			block content
+				h2 Oops! There was a problem. Please check the url of your request. 
+				h3 Redirecting to 
+					a(href='/') Homepage
+					.... in
+					span#timer 
+
+		script(src="/js/lib/jquery-1.7.2.min.js")
+		script(src="/js/lib/bootstrap.min.js")
+		script(src="/js/lib/knockout-2.0.0.js")
+		script(type='text/javascript')
+			
+			var num=6;
+			
+			showTime();
+			
+			setTimeout(function(){
+				console.log('redirecting...');
+				window.location.assign('/');
+			},5000);
+		
+			function showTime(){
+				num = num-1;
+				$('#timer').html(' '+ num + ' seconds');
+				if (num==0) return;
+				setTimeout(showTime,1000);
+			}
+			
+			
+			

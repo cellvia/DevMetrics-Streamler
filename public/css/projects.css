@@ -1,0 +1,101 @@
+.menuButton {
+	margin:4px;
+}
+
+#project{
+	margin-bottom: 10px;
+}
+
+.projectName {
+	display:inline;
+}
+
+.projectName, select.fixfor {
+	margin-right:8px;
+}
+
+
+.smBotSpace, .labelSpacer {
+	padding-bottom:6px;
+}
+
+.botSpace {
+	padding-bottom:24px;
+}
+
+.loading {
+	background:url('../img/ajax-loader.gif') no-repeat;
+	height:32px;
+	
+}
+
+.labelSpacer .label {
+	
+	margin-right:6px;
+	margin-top:6px;
+	
+}
+
+label.checkbox {
+	padding-top:6px;
+	padding-bottom:6px;
+	margin-left:6px;
+	margin-right:-6px;
+	cursor:pointer;
+}
+
+.btn-group > .btn:first-child {
+	margin-top:-8px !important;
+}
+.btn-group > .btn {
+	float:none;
+}
+
+#defectsSelect {
+	width:100%;
+}
+
+#defectsSelect li {
+	text-align:left;
+	cursor:pointer;
+	padding:8px;
+}
+
+#defectsSelect li:nth-child(even) {
+	background:#f1f5fb;
+}
+
+#defectsSelect li:hover {
+	background:#65a2e1;
+	color:#fff;
+}
+
+th b.caret {float:right; margin-top:8px; margin-left:8px;}
+
+#defectsSelect .dropDownSelectOptions {
+	text-align:right;
+	padding:8px;
+}
+
+#defectsSelect .dropDownSelectOptions:hover {
+	background:#fff;
+	cursor:default;
+	color:#000;
+}
+
+#defectsSelect li.dropDownSelectOptions:nth-child(even):hover {
+	background:#f1f5fb;
+}
+
+#defectsSelect .dropDownSelectOptions a {
+	display:inline;
+	padding:0;
+	margin:0;
+	color: #08C;
+}
+
+#defectsSelect .dropDownSelectOptions a:hover {
+
+	background:transparent;
+	
+}

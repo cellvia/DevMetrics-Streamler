@@ -1,0 +1,8 @@
+{
+
+"name": "pullFogBugz",
+"description": "Pulls all project related data from Fogbugz and stores it in redis",
+"dependencies": [],
+"active": true
+
+}

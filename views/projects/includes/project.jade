@@ -1,0 +1,44 @@
+div#home(data-bind='visible: projectView', style='display:none')
+    div.row.botSpace
+        div.span12
+            span.btn-group(data-bind='visible: projectView')
+                button(class="btn dropdown-toggle", data-toggle="dropdown", href="#defectsDropdown") Select Charting Milestones...
+                    span.caret
+                ul#defectsSelect.dropdown-menu
+    div.row.botSpace.badRCM
+        div.span12
+            div.alert
+                strong !{projectBadRCM} 
+                span  defects
+                span  contain an incorrect Rootcause Milestone
+                br
+                strong !{projectBlankRCM} 
+                span  defects contain a blank Rootcause Milestone
+                br
+                strong !{projectEscapees} 
+                span  defects are escapees
+                br
+                strong !{projectTotalUnresolvedBugs}
+                span  defects remain unresolved
+                br
+                strong !{projectTotalUnclosedBugs}
+                span  defects remain unclosed
+    div.row.botSpace
+        div#defectsOrigination.span12
+    div.row
+        div.span12
+            hr
+    div.row.botSpace
+        div#defectsAssigned.span12
+    div.row
+        div.span12
+            hr
+    div.row.botSpace
+        div#totalCases.span12
+    div.row
+        div.span12
+            hr
+    div.row.botSpace
+        div#percentEscapees.span12
+    div.row.botSpace
+        div#pendingReviewAvg.span12

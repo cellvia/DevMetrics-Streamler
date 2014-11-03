@@ -1,0 +1,30 @@
+div#milestones(data-bind='visible: milestoneView', style='display:none')
+    div.row(data-bind='visible: topmenu')
+        div.span12.labelSpacer.botSpace
+            <span class="label">Start: <span data-bind='text: milestoneStartDate'></span></span>
+            <span class="label">Due: <span data-bind='text: milestoneDueDate'></span></span>
+            <span class="label">Open Tickets: <span data-bind='text: milestoneOpenTickets'></span></span>
+            <span class="label">Closed Tickets: <span data-bind='text: milestoneClosedTickets'></span></span>
+            <span class="label">Escapees: <span data-bind='text: milestoneEscapedDefects'></span></span>
+            <span class="label invalidrcm">Invalid RCM: <span data-bind='text: milestoneBadRCM'></span></span>
+            <span class="label invalidrcm">Blank RCM: <span data-bind='text: milestoneBlankRCM'></span></span>
+            <span class="label">PEIs: <span data-bind='text: milestonePEI'></span></span>
+            <span class="label">Umbrellas: <span data-bind='text: milestoneUmbrellas'></span></span>
+            <span class="label">Pending Review Avg: <span data-bind='text: pendingReviewAvg'></span></span>
+            <span class="label">Valid QA Returns: <span data-bind='text: validQAReturns'></span></span>
+            <span class="label">Defects Open By QA Before Release Testing Date: <span data-bind='text: openBeforeReleaseTestingDate'></span></span>
+            <span class="label">Defects Open By QA After Release Testing Date: <span data-bind='text: openAfterReleaseTestingDate'></span></span>
+            <span class="label">Cases without Estimates : <span data-bind='text: noEstimateCases'/></span></span>
+
+    div.row
+        div.span12.alert.alert-error(data-bind='visible: errorVisible')
+            strong Errors!
+            br
+            span(data-bind='text: errorMsg')
+    div.row
+        div.span12.loading(data-bind='visible: loading')
+    div.row(data-bind='visible: loaded')
+        div.span12(data-bind='visible: milestoneOverdue')
+            div.alert.alert-error.
+                <strong>Milestone is Past Due!</strong><br />There are <strong><span data-bind="text: cases_open().length + cases_resolved().length"></span> tickets</strong> that have not been closed.
+                

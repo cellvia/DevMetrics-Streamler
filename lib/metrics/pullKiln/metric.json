@@ -1,0 +1,8 @@
+{
+
+"name": "pullKiln",
+"description": "Fetches all code and review related data from Kiln and stores it in redis",
+"dependencies": [],
+"active": false
+
+}

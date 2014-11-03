@@ -1,0 +1,8 @@
+{
+
+"name": "byMilestoneReport",
+"description": "Checks pre-calculated reports and generates a report on milestones",
+"dependencies": ["pullFogbugz","defectsByMilestone"],
+"active": true
+
+}

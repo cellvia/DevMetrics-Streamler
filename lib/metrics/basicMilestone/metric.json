@@ -1,0 +1,6 @@
+{
+    "name": "basicMilestone",
+    "description": "Generates basic statistics from ticket and milestone data",
+    "dependencies": ["pullFogbugz"],
+    "active": true
+}
