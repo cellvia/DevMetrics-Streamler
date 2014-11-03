@@ -2,6 +2,8 @@
 
 a modular way to manage collections of streams of data and their pipelines
 
+here is a full overview [video presentation](https://www.youtube.com/watch?v=H1Ax9x7GJeY)
+
 # how does it work
 
 everything encapsulated by the main Streamler object, which you use to create channels, channels contain pipelines which are connections of pipes (data modulators) These pipelines can be hooked and unhooked to each other with ease, and the beauty of the whole thing is that its all streaming.  Large swaths of data arent stored in memory (ahem, xml files).  As well, since the streaming interface is standardized, this makes it trivial to swap a stream destination from say, your app,  to the stdOut,  or to the filesystem.   Managing this level of flexibility and the particular interface of streaming (in conjunction with legacy libraries that are not so well adapted for the purpose) is not the easiest task, hence this rough framework.
